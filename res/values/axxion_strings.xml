@@ -71,4 +71,8 @@
     <string name="show_enter_key_title">Show enter key</string>
     <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
     
+    <!-- Network speed -->
+    <string name="show_network_speed">Network speed indicator</string>
+    <string name="show_network_speed_summary">Show network speed in statsbar</string>
+    
 </resources>
