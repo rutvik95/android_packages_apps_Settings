@@ -77,15 +77,12 @@
     <header
         android:id="@+id/multi_sim_settings"
         android:icon="@drawable/ic_settings_sim"
-        android:title="@string/multi_sim_settings_title">
+        android:title="@string/multi_sim_settings_title"
         <intent
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.android.settings"
             android:targetClass="com.android.settings.MultiSimSettings" />
     </header>
-    
-
-
 
     <!-- INTERFACE -->
     <header android:id="@+id/interface_section"
@@ -109,7 +106,8 @@
     <header
         android:id="@+id/trds_settings"
         android:icon="@drawable/ic_settings_trds"
-        android:title="@string/trds_settings_title" />
+        android:summary="@string/pb_summary"
+        android:title="@string/pb_settings_title"/>
         
     <!-- Themes -->
     <header
