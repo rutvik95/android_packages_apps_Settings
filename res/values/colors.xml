@@ -51,5 +51,5 @@
     <drawable name="transparent_background">#00000000</drawable>
     
     <color name="halo_color">#ff33b5e5</color>
-    
+    <color name="tab_selector">#FFFFFFFF</color>
 </resources>
