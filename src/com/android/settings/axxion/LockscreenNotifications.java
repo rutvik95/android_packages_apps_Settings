@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.android.settings.colorpicker.ColorPickerPreference;
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class LockscreenNotifications extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
