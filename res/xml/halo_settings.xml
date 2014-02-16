@@ -42,6 +42,16 @@ limitations under the License.
         android:dependency="halo_enabled"
         android:entryValues="@array/values_halo_size" />
 
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="halo_color"
+        android:dialogTitle="@string/halo_color_title"
+        android:title="@string/halo_color_title"
+        android:summary="@string/halo_color_summary"
+        android:defaultValue="@color/halo_color"
+        android:dependency="halo_enabled"
+        alphaSlider="true" 
+        hexValue="false" />
+
     <CheckBoxPreference
         android:key="halo_hide"
         android:title="@string/halo_hide_title"
@@ -100,5 +110,52 @@ limitations under the License.
         android:summary="@string/halo_unlock_ping_summary"
         android:dependency="halo_enabled"
         android:defaultValue="false" />
+        
+   <PreferenceCategory
+        android:key="halo_color_category"
+        android:title="@string/halo_color_category_title">
+
+        <CheckBoxPreference
+            android:key="halo_colors"
+            android:title="@string/halo_colors"
+            android:dependency="halo_enabled"
+            android:defaultValue="false" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_circle_color"
+            android:title="@string/halo_circle_color"
+            android:defaultValue="#33b5e5"
+            android:dependency="halo_colors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_effect_color"
+            android:title="@string/halo_effect_color"
+            android:defaultValue="#33b5e5"
+            android:dependency="halo_colors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_notif_title_color"
+            android:title="@string/halo_notif_title_color"
+            android:defaultValue="#ffffff"
+            android:dependency="halo_colors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_notif_desc_color"
+            android:title="@string/halo_notif_desc_color"
+            android:defaultValue="#999999"
+            android:dependency="halo_colors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_speech_bubble_color"
+            android:title="@string/halo_speech_bubble_color"
+            android:defaultValue="#33b5e5"
+            android:dependency="halo_colors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="halo_text_color"
+            android:title="@string/halo_text_color"
+            android:defaultValue="#999999"
+            android:dependency="halo_colors" />
+        </PreferenceCategory>        
 
 </PreferenceScreen>
