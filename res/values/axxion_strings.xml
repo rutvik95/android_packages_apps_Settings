@@ -453,4 +453,8 @@
     <string name="ram_bar_reset">Reset</string>
     <string name="ram_bar_reset_message">Reset RAM bar style to default?</string>
     
+    <!-- Custom Recent Settings -->
+    <string name="custom_recent_title">Use SlimRecents</string>
+    <string name="custom_recent_summary">Tick to Slim recents or untick for stock recents. TICKING OR UNTICKING THIS BOX WILL RESTART YOUR SYSTEMUI</string>
+    
 </resources>
