@@ -55,5 +55,8 @@
     <!-- Color Picker -->
     <string name="dialog_color_picker">Halo color</string>
     <string name="press_color_to_apply">Press on Color to apply</string>
+    
+    <!-- Notifications light with screen on -->
+    <string name="notification_light_screen_on_title">Show when screen is on</string>
 
 </resources>
