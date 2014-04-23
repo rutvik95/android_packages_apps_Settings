@@ -64,7 +64,9 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String KEY_ENABLE_WIDGETS = "keyguard_enable_widgets";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_ENABLE_CAMERA = "keyguard_enable_camera";
+    private static final String KEY_ENABLE_MAXIMIZE_WIGETS = "lockscreen_maximize_widgets";
     private static final String LOCKSCREEN_BACKGROUND_STYLE = "lockscreen_background_style";
+    private static final String KEY_LOCKSCREEN_MODLOCK_ENABLED = "lockscreen_modlock_enabled";
 
     private static final String LOCKSCREEN_WALLPAPER_TEMP_NAME = ".lockwallpaper";
 
@@ -72,6 +74,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
 
     private CheckBoxPreference mEnableKeyguardWidgets;
     private CheckBoxPreference mEnableCameraWidget;
+    private CheckBoxPreference mEnableModLock;
+    private CheckBoxPreference mEnableMaximizeWidgets;
     private ListPreference mLockBackground;
     private ListPreference mBatteryStatus;
 
@@ -99,6 +103,12 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         // Find preferences
         mEnableKeyguardWidgets = (CheckBoxPreference) findPreference(KEY_ENABLE_WIDGETS);
         mEnableCameraWidget = (CheckBoxPreference) findPreference(KEY_ENABLE_CAMERA);
+        mEnableMaximizeWidgets = (CheckBoxPreference) findPreference(KEY_ENABLE_MAXIMIZE_WIGETS);
+
+        mEnableModLock = (CheckBoxPreference) findPreference(KEY_LOCKSCREEN_MODLOCK_ENABLED);
+        if (mEnableModLock != null) {
+            mEnableModLock.setOnPreferenceChangeListener(this);
+        }
 
         mBatteryStatus = (ListPreference) findPreference(KEY_BATTERY_STATUS);
         if (mBatteryStatus != null) {
@@ -110,10 +120,6 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             generalCategory.removePreference(findPreference(KEY_LOCKSCREEN_BUTTONS));
         }
 
-        // Enable or disable lockscreen widgets based on policy
-        checkDisabledByPolicy(mEnableKeyguardWidgets,
-                DevicePolicyManager.KEYGUARD_DISABLE_WIDGETS_ALL);
-
         // Enable or disable camera widget based on device and policy
         if (Camera.getNumberOfCameras() == 0) {
             widgetsCategory.removePreference(mEnableCameraWidget);
@@ -124,6 +130,19 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
                     DevicePolicyManager.KEYGUARD_DISABLE_SECURE_CAMERA);
         }
 
+        boolean canEnableModLockscreen = false;
+        final Bundle keyguard_metadata = Utils.getApplicationMetadata(
+                getActivity(), "com.android.keyguard");
+        if (keyguard_metadata != null) {
+            canEnableModLockscreen = keyguard_metadata.getBoolean(
+                    "com.cyanogenmod.keyguard", false);
+        }
+
+        if (mEnableModLock != null && !canEnableModLockscreen) {
+            generalCategory.removePreference(mEnableModLock);
+            mEnableModLock = null;
+        }
+
         // Remove cLock settings item if not installed
         if (!Utils.isPackageInstalled(getActivity(), "com.cyanogenmod.lockclock")) {
             widgetsCategory.removePreference(findPreference(KEY_LOCK_CLOCK));
@@ -132,7 +151,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         // Remove maximize widgets on tablets
         if (!Utils.isPhone(getActivity())) {
             widgetsCategory.removePreference(
-                    findPreference(Settings.System.LOCKSCREEN_MAXIMIZE_WIDGETS));
+                    mEnableMaximizeWidgets);
         }
 
         mLockBackground = (ListPreference) findPreference(LOCKSCREEN_BACKGROUND_STYLE);
@@ -164,7 +183,34 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             mBatteryStatus.setSummary(mBatteryStatus.getEntries()[batteryStatus]);
         }
 
+        // Update mod lockscreen status
+        if (mEnableModLock != null) {
+            ContentResolver cr = getActivity().getContentResolver();
+            boolean checked = Settings.System.getInt(
+                    cr, Settings.System.LOCKSCREEN_MODLOCK_ENABLED, 1) == 1;
+            mEnableModLock.setChecked(checked);
+        }
+
         updateBackgroundPreference();
+        updateAvailableModLockPreferences();
+    }
+
+    private void updateAvailableModLockPreferences() {
+        if (mEnableModLock == null) {
+            return;
+        }
+
+        boolean enabled = !mEnableModLock.isChecked();
+        if (mEnableKeyguardWidgets != null) {
+            // Enable or disable lockscreen widgets based on policy
+            if(!checkDisabledByPolicy(mEnableKeyguardWidgets,
+                    DevicePolicyManager.KEYGUARD_DISABLE_WIDGETS_ALL)) {
+                mEnableKeyguardWidgets.setEnabled(enabled);
+            }
+        }
+        if (mEnableMaximizeWidgets != null) {
+            mEnableMaximizeWidgets.setEnabled(enabled);
+        }
     }
 
     private void updateBackgroundPreference() {
@@ -199,7 +245,17 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         } else if (preference == mLockBackground) {
             int index = mLockBackground.findIndexOfValue((String) objValue);
             handleBackgroundSelection(index);
+            return true;
+        } else if (preference == mEnableModLock) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(cr, Settings.System.LOCKSCREEN_MODLOCK_ENABLED,
+                    value ? 1 : 0);
+            // force it so update picks up correct values
+            ((CheckBoxPreference) preference).setChecked(value);
+            updateAvailableModLockPreferences();
+            return true;
         }
+
         return false;
     }
 
@@ -217,8 +273,9 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
      * provided preference if so.
      * @param preference Preference
      * @param feature Feature
+     * @return True if disabled.
      */
-    private void checkDisabledByPolicy(Preference preference, int feature) {
+    private boolean checkDisabledByPolicy(Preference preference, int feature) {
         boolean disabled = featureIsDisabled(feature);
 
         if (disabled) {
@@ -226,6 +283,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         }
 
         preference.setEnabled(!disabled);
+        return disabled;
     }
 
     /**
@@ -244,9 +302,9 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
                 if (uri == null) {
                     uri = Uri.fromFile(mTempWallpaper);
                 }
-                new SaveUserWallpaperTask().execute(uri);
+                new SaveUserWallpaperTask(getActivity().getApplicationContext()).execute(uri);
             } else {
-                toastLockscreenWallpaperStatus(false);
+                toastLockscreenWallpaperStatus(getActivity(), false);
             }
         }
     }
@@ -302,9 +360,9 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
                 intent.putExtra("return-data", false);
                 getActivity().startActivityFromFragment(this, intent, REQUEST_PICK_WALLPAPER);
             } catch (IOException e) {
-                toastLockscreenWallpaperStatus(false);
+                toastLockscreenWallpaperStatus(getActivity(), false);
             } catch (ActivityNotFoundException e) {
-                toastLockscreenWallpaperStatus(false);
+                toastLockscreenWallpaperStatus(getActivity(), false);
             }
         } else if (index == LockscreenBackgroundUtil.LOCKSCREEN_STYLE_DEFAULT) {
             // Sets background to default
@@ -313,25 +371,30 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             if (mWallpaper.exists()) {
                 mWallpaper.delete();
             }
-            updateKeyguardWallpaper();
+            updateKeyguardWallpaper(getActivity());
             updateBackgroundPreference();
         }
     }
 
-    private void toastLockscreenWallpaperStatus(boolean success) {
-        Toast.makeText(getActivity(), getResources().getString(
+    private static void toastLockscreenWallpaperStatus(Context context, boolean success) {
+        Toast.makeText(context, context.getResources().getString(
                 success ? R.string.background_result_successful
                         : R.string.background_result_not_successful),
                 Toast.LENGTH_LONG).show();
     }
 
-    private void updateKeyguardWallpaper() {
-        getActivity().sendBroadcast(new Intent(Intent.ACTION_KEYGUARD_WALLPAPER_CHANGED));
+    private static void updateKeyguardWallpaper(Context context) {
+        context.sendBroadcast(new Intent(Intent.ACTION_KEYGUARD_WALLPAPER_CHANGED));
     }
 
     private class SaveUserWallpaperTask extends AsyncTask<Uri, Void, Boolean> {
 
         private Toast mToast;
+        Context mContext;
+
+        public SaveUserWallpaperTask(Context ctx) {
+            mContext = ctx;
+        }
 
         @Override
         protected void onPreExecute() {
@@ -375,13 +438,15 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         @Override
         protected void onPostExecute(Boolean result) {
             mToast.cancel();
-            toastLockscreenWallpaperStatus(result);
+            toastLockscreenWallpaperStatus(mContext, result);
             if (result) {
                 Settings.System.putInt(getContentResolver(),
                         Settings.System.LOCKSCREEN_BACKGROUND_STYLE,
                         LockscreenBackgroundUtil.LOCKSCREEN_STYLE_IMAGE);
-                updateKeyguardWallpaper();
-                updateBackgroundPreference();
+                updateKeyguardWallpaper(mContext);
+                if (!isDetached()) {
+                    updateBackgroundPreference();
+                }
             }
         }
     }
