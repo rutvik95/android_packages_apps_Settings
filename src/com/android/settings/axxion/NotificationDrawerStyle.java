@@ -37,15 +37,13 @@ import android.util.Log;
 import android.view.Display;
 import android.widget.Toast;
 
-import com.android.internal.util.axxion.DeviceUtils;
-
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.axxion.SeekBarPreference;
 
 import java.io.File;
 
-import net.margaritov.preference.colorpicker.ColorPickerView;
+import com.android.settings.colorpicker.ColorPickerView;
 
 public class NotificationDrawerStyle extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
@@ -94,10 +92,6 @@ public class NotificationDrawerStyle extends SettingsPreferenceFragment implemen
         mNotificationWallpaperLandscape =
                 (ListPreference) findPreference(PREF_NOTIFICATION_WALLPAPER_LANDSCAPE);
         mNotificationWallpaperLandscape.setOnPreferenceChangeListener(this);
-
-        if (!DeviceUtils.isPhone(mActivity)) {
-            prefSet.removePreference(mNotificationWallpaperLandscape);
-        }
 
         float transparency;
         try{
