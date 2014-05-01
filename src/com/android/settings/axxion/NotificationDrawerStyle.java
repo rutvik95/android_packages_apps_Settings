@@ -43,7 +43,7 @@ import com.android.settings.axxion.SeekBarPreference;
 
 import java.io.File;
 
-import com.android.settings.colorpicker.ColorPickerView;
+import net.margaritov.preference.colorpicker.ColorPickerView;
 
 public class NotificationDrawerStyle extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
