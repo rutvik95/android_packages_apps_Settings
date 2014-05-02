@@ -106,8 +106,7 @@
     <header
         android:id="@+id/trds_settings"
         android:icon="@drawable/ic_settings_trds"
-        android:summary="@string/pb_summary"
-        android:title="@string/pb_settings_title"/>
+        android:title="@string/crimson_settings_title"/>
         
     <!-- Themes -->
     <header
