@@ -95,7 +95,7 @@
     <string name="shortcut_image_not_valid">The chosen app did not return a valid icon or does not support image cropping. Use another app</string>
     
      <!-- Crimson Mode-->
-    <string name="crimson_settings_title"><i><b>Crimson Mode</b></i></string> 
+    <string name="crimson_settings_title"><b>Crimson Mode</b></string> 
     
     <!-- Navigation bar -->
     <string name="navbar_enable_bar">Enable navigation bar</string>
@@ -115,10 +115,6 @@
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (off)</string>
-<<<<<<< HEAD
-=======
->>>>>>> 36408a3... Rename PB and Intensify Red
->>>>>>> 8c798e0... Rename PB and Intensify Red
 
     <!-- Ability to disable hardware keys via nav bar settings -->
     <string name="hw_keys_title">Hardware Keys</string>
