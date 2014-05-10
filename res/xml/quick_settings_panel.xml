@@ -39,6 +39,12 @@
             android:summary="@string/flip_qs_tiles_summary"
             android:defaultValue="true" />
 
+        <com.android.settings.cyanogenmod.SystemSettingCheckBoxPreference
+            android:key="qs_small_icons"
+            android:title="@string/title_qs_small_icons"
+            android:defaultValue="false"
+            android:summary="@string/summary_qs_small_icons" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
