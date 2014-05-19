@@ -661,7 +661,7 @@ public class Settings extends PreferenceActivity
                         target.remove(i);
                     }
                 }
-            } else if (id == R.id.development_settings
+            } else if (id == R.id.development_settings) {
                 if (!showDev) {
                     target.remove(i);
                 }
@@ -703,10 +703,9 @@ public class Settings extends PreferenceActivity
                 }
                 mHeaderIndexMap.put(id, i);
                 i++;
-            }
-        }
-    }
-
+			}
+		}
+	}
     private int insertAccountsHeaders(List<Header> target, int headerIndex) {
         String[] accountTypes = mAuthenticatorHelper.getEnabledAccountTypes();
         List<Header> accountHeaders = new ArrayList<Header>(accountTypes.length);
