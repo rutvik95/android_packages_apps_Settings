@@ -335,21 +335,7 @@
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
-    
-    <!-- Smooth ProgressBar -->
-    <string name="progressbar_title">Custom ProgressBar</string>
-    <string name="progressbar_mirror_title">Mirror Mode</string>
-    <string name="progressbar_reverse_title">Reversed</string>
-    <string name="progressbar_speed_title">Speed</string>
-    <string name="progressbar_width_title">Stroke Width</string>
-    <string name="progressbar_length_title">Separator length</string>
-    <string name="progressbar_count_title">Sections Count</string>
-    <string name="progressbar_color_1_title">Color1</string>
-    <string name="progressbar_color_2_title">Color2</string>
-    <string name="progressbar_color_3_title">Color3</string>
-    <string name="progressbar_color_4_title">Color4</string>
-    <string name="sample_progressbar_text">ProgressBar : Preview</string>
-    
+
     <!-- NavBar long press actions -->
     <string name="navbar_long_press_title">Long press actions</string>
     <string name="recent_long_press_title">Recent long press actions</string>
@@ -377,7 +363,7 @@
     <string name="quick_tiles_alpha_title">Tiles background transparency</string>
     <string name="qs_style_reset_message">Reset all colors to default?</string>
 
-<!-- Wakelock blocker -->
+	<!-- Wakelock blocker -->
     <string name="wakelock_blocker">Wakelock Blocker</string>
     <string name="wakelock_blocker_title">Enable</string>
     <string name="wakelock_blocker_summary">Activate blocking for checked wakelocks</string>
@@ -387,7 +373,7 @@
     <string name="wakelock_blocker_warning_title">Proceed with Caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data</string>
 
-<!-- Volume pane timeout -->
+	<!-- Volume pane timeout -->
     <string name="volume_panel_timeout_title">Volume panel Timeout</string>
     <string name="volume_panel_timeout_summary">Time until the volume panel to hide</string>
 
