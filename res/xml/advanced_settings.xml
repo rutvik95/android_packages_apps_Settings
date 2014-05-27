@@ -37,7 +37,7 @@
         android:title="@string/superuser" />    
 
     <!-- Performance -->
-    <header
+    <PreferenceScreen
         android:key="cm_performance_settings"
         android:fragment="com.android.settings.cyanogenmod.PerformanceSettings"
         android:icon="@drawable/ic_settings_performance"
