@@ -33,7 +33,8 @@
         <PreferenceScreen
             android:key="keyguard_style"
             android:fragment="com.android.settings.axxion.LockscreenStyle"
-            android:title="@string/lockscreen_style_title"/>
+            android:title="@string/lockscreen_style_title"
+            android:summary="@string/lockscreen_style_summary" />
 
         <ListPreference
             android:key="lockscreen_battery_status"

@@ -32,7 +32,7 @@
     <string name="halo_unlock_ping_title">Ping on unlock</string>
     <string name="halo_unlock_ping_summary">Halo will ping when device is unlocked if new notifications were received</string>
     <string name="halo_color_title">Halo color</string>
-    <string name="halo_color_summary">Defines how color Halo is going to be</string>
+    <string name="halo_color_summary">Defines what color Halo is going to be</string>
  
     <string name="halo_size_title">Halo size</string>
     <string name="halo_size_summary">Defines how big Halo is going to be</string>
@@ -134,6 +134,7 @@
     <string name="lockscreen_colorize_handle_title">Colorize custom handle</string>
     <string name="lockscreen_colorize_handle_summary">Lock color will be set to your custom image</string>
     <string name="lockscreen_style_title">Theme style</string>
+    <string name="lockscreen_style_summary">Customize your lockscreen style</string>
     <string name="lockscreen_frame_color_title">Frame color</string>
     <string name="lockscreen_frame_color_summary">Color of the widget and unlock frames</string>
     <string name="lockscreen_lock_color_title">Lock color</string>
