@@ -512,4 +512,8 @@
 
     <!-- QS and navring last app -->
     <string name="navring_action_last_app">Last app</string>
+    
+    <!-- QuickSettings haptic feedback -->
+    <string name="haptic_qs_tiles_title">Vibrate on touch</string>
+    <string name="haptic_qs_tiles_summary">Vibrate when touching tiles</string>
 </resources>
