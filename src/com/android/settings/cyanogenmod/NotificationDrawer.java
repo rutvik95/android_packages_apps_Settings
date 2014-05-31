@@ -17,6 +17,7 @@
 package com.android.settings.cyanogenmod;
 
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
@@ -68,7 +69,7 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
             updateCollapseBehaviourSummary(value);
             return true;
         } else if (preference == mStatusBarCustomHeader) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
              Settings.System.putInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
             return true;

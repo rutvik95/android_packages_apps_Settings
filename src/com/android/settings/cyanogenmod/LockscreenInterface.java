@@ -232,7 +232,7 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             updateAvailableModLockPreferences();
             return true;   
         } else if (preference == mAllWidgets) {
-            final boolean checked = (Boolean) newValue;
+            final boolean checked = (Boolean) objValue;
             if (checked) {
                 showDialogInner(DLG_ALL_WIDGETS);
             } else {
@@ -297,8 +297,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
             return frag;
         }
 
-        LockscreenWidgets getOwner() {
-            return (LockscreenWidgets) getTargetFragment();
+        LockscreenInterface  getOwner() {
+            return (LockscreenInterface) getTargetFragment();
         }
 
         @Override
