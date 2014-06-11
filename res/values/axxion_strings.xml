@@ -559,4 +559,8 @@
     <string name="volume_steps_ring_title">Ringer</string>
     <string name="volume_steps_system_title">System</string>
     <string name="volume_steps_voice_call_title">Voice Call</string>
+    
+    <!-- axxion Updater -->
+    <string name="axxionupdate_settings_title">Axxion Updates</string>
+    <string name="axxionupdate_settings_summary">Check for, view or install updates</string>    
 </resources>

@@ -26,6 +26,15 @@
                     android:targetClass="android.romstats.AnonymousStats" />
         </PreferenceScreen>
         
+        <!-- Axxion Updates -->
+        <PreferenceScreen android:key="axxion_updates"
+                android:title="@string/axxionupdate_settings_title"
+                android:summary="@string/axxionupdate_settings_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.axxion.updater"
+                    android:targetClass="com.axxion.updater.UpdatesSettings" />
+        </PreferenceScreen>
+         
         <!-- Change Log -->
         <PreferenceScreen android:key="changelog"
             android:title="@string/changelog_title"

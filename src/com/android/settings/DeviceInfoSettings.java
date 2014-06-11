@@ -76,6 +76,7 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_STATUS = "status_info";
+    private static final String KEY_AXXION_UPDATES = "axxion_updates";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
     long[] mHits = new long[3];
@@ -154,6 +155,13 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
             getPreferenceScreen().removePreference(findPreference(KEY_BASEBAND_VERSION));
         }
 
+        // Only the owner should see the Updater settings, if it exists
+        if (UserHandle.myUserId() == UserHandle.USER_OWNER) {
+            removePreferenceIfPackageNotInstalled(findPreference(KEY_AXXION_UPDATES));
+         } else {
+            getPreferenceScreen().removePreference(findPreference(KEY_AXXION_UPDATES));
+        }
+        
         /*
          * Settings is a generic app and should not contain any device-specific
          * info.
