@@ -563,4 +563,8 @@
     <!-- axxion Updater -->
     <string name="axxionupdate_settings_title">Axxion Updates</string>
     <string name="axxionupdate_settings_summary">Check for, view or install updates</string>    
+    
+    <!--Blacklist-->
+    <string name="blacklist_button_title">Blacklist</string>
+    <string name="floating_blacklist_label">Blacklist from Floating Mode</string>
 </resources>
