@@ -24,7 +24,7 @@
 
         <PreferenceScreen
             android:key="screen_security"
-            android:fragment="com.android.settings.SecuritySettings"
+            android:fragment="com.android.settings.LockscreenSecuritySettings"
             android:title="@string/screen_security_category"
             android:summary="@string/screen_security_summary">
             <extra android:name="cm_security" android:value="true" />
@@ -100,19 +100,6 @@
             android:key="lockscreen_maximize_widgets"
             android:summary="@string/lockscreen_maximize_widgets_summary"
             android:title="@string/lockscreen_maximize_widgets_title" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="lockscreen_background_category"
-        android:title="@string/lockscreen_background">
-
-        <Preference
-            android:key="lockscreen_wallpaper_settings"
-            android:title="@string/lockscreen_wallpaper_settings_title">
-            <intent android:targetPackage="com.android.wallpapercropper"
-                    android:targetClass="com.android.wallpapercropper.LockWallpaperPickerActivity" />
-        </Preference>
 
     </PreferenceCategory>
 

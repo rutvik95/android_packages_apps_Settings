@@ -179,7 +179,7 @@ public class SecuritySettings extends RestrictedSettingsFragment
             final boolean singleUser = users.size() == 1;
 
             if (singleUser && mLockPatternUtils.isLockScreenDisabled()) {
-                resid = R.xml.security_settings_lockscreen;
+                resid = R.xml.lockscreen_interface_settings;
             } else {
                 resid = R.xml.security_settings_chooser;
             }

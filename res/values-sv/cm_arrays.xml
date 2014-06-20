@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="wifi_countrycode_entries">
     <item>USA</item>
     <item>Kanada, Taiwan</item>
@@ -32,7 +32,7 @@
   <string-array name="profile_entries">
     <item>På</item>
     <item>Av</item>
-    <item>No override</item>
+    <item>Ingen åsidosättning</item>
   </string-array>
   <string-array name="profile_connection_entries">
     <item>Inaktivera</item>
