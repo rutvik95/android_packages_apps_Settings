@@ -62,11 +62,11 @@
     <string name="halo_msgbox_animation_summary">Halo message box animation for incoming notifications</string>
     <string name="halo_msgbox_animation_none">None</string>
     <string name="halo_msgbox_animation_flip">Flip</string>
-
+    
     <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_halo_label_black">Blacklist from HALO</string>
     <string name="app_halo_label_white">Whitelist from HALO</string>
-        
+    
     <!-- Notifications light with screen on -->
     <string name="notification_light_screen_on_title">Show when screen is on</string>
 
@@ -566,5 +566,6 @@
     
     <!--Blacklist-->
     <string name="blacklist_button_title">Blacklist</string>
+    <string name="hover_blacklist_label">Blacklist from Hover</string>
     <string name="floating_blacklist_label">Blacklist from Floating Mode</string>
 </resources>
