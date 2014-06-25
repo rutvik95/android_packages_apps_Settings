@@ -37,8 +37,11 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CUSTOM_HEADER = "custom_status_bar_header";
     
     private ListPreference mCollapseOnDismiss;
+    
     private CheckBoxPreference mStatusBarCustomHeader;
     
+    private SystemSettingSwitchPreference mSwitchPreference;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +63,25 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1);
         mStatusBarCustomHeader.setOnPreferenceChangeListener(this);
     }
-    
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        boolean headsUpEnabled = Settings.System.getIntForUser(
+                getActivity().getContentResolver(),
+                Settings.System.HEADS_UP_NOTIFICATION, 0, UserHandle.USER_CURRENT) == 1;
+        mSwitchPreference.setChecked(headsUpEnabled);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        boolean headsUpEnabled = Settings.System.getIntForUser(
+                getActivity().getContentResolver(),
+                Settings.System.HEADS_UP_NOTIFICATION, 0, UserHandle.USER_CURRENT) == 1;
+        mSwitchPreference.setChecked(headsUpEnabled);
+    }
+
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mCollapseOnDismiss) {
             int value = Integer.valueOf((String) objValue);
