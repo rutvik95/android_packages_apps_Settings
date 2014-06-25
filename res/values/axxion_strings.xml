@@ -378,10 +378,6 @@
     <string name="wakelock_blocker_warning_title">Proceed with Caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data</string>
 
-	<!-- Volume pane timeout -->
-    <string name="volume_panel_timeout_title">Volume panel Timeout</string>
-    <string name="volume_panel_timeout_summary">Time until the volume panel to hide</string>
-
     <!-- SlimSizer -->
     <string name="listsystem">list</string>
     <string name="sizer_title">System App Remover</string>
