@@ -1776,7 +1776,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.cyanogenmod.SystemUiSettings" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
-                android:resource="@id/system_settings" />
+                android:resource="@id/system_ui_settings" />
         </activity>
 
         <activity android:name=".axxion.ProgressBar" />
