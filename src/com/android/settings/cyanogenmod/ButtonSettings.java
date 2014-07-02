@@ -301,7 +301,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         return false;
     }
-
+    
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mSwapVolumeButtons) {
