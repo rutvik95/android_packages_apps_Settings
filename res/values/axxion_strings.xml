@@ -644,4 +644,9 @@
     <string name="heads_up_timeout">Heads up timeout</string>
     <string name="heads_up_fullscreen_timeout">Heads up timeout on fullscreen</string>
     <string name="heads_up_floating_window">Launch in floating window</string>
+    
+    <!-- Minimum Vibration Duration -->
+    <string name="minimum_vibration_duration">Minimum vibration duration</string>
+    <!-- Vibration multiplier -->
+    <string name="vibrator_multiplier_title">Vibration multiplier</string>    
 </resources>
