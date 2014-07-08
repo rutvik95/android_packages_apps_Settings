@@ -37,8 +37,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import com.android.settings.R;
 
-import com.android.internal.util.liquid.identicons.Identicon;
-import com.android.internal.util.liquid.identicons.IdenticonFactory;
+import com.android.internal.util.axxion.identicons.Identicon;
+import com.android.internal.util.axxion.identicons.IdenticonFactory;
 
 import java.util.ArrayList;
 

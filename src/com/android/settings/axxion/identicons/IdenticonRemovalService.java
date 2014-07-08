@@ -33,7 +33,7 @@ import android.os.RemoteException;
 import android.provider.ContactsContract;
 import android.provider.Settings;
 import android.util.Log;
-import com.android.internal.util.liquid.identicons.Identicon;
+import com.android.internal.util.axxion.identicons.Identicon;
 import com.android.settings.R;
 
 import java.io.UnsupportedEncodingException;

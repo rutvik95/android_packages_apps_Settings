@@ -29,7 +29,7 @@
 			<PreferenceScreen
 					android:id="@+id/identicons"
 					android:title="@string/identicons_title"
-					android:fragment="com.android.settings.liquid.identicons.IdenticonsSettings" />
+					android:fragment="com.android.settings.axxion.identicons.IdenticonsSettings" />
                 
             <PreferenceScreen
                     android:key="display_rotation"
@@ -66,12 +66,10 @@
 				android:key="lights_prefs"
 				android:title="@string/lights_category_title">
 	
-     <PreferenceScreen
+			<PreferenceScreen
 				android:key="notification_pulse"
                 android:title="@string/notification_light_title"
                 android:fragment="com.android.settings.notificationlight.NotificationLightSettings" />
-
-    </PreferenceCategory>
 
             <PreferenceScreen
                 android:key="battery_light"
