@@ -81,8 +81,6 @@ public class LockscreenSecuritySettings extends RestrictedSettingsFragment
         if (root != null) {
             root.removeAll();
         }
-        addPreferencesFromResource(R.xml.security_settings);
-        root = getPreferenceScreen();
 
         // CM - allows for calling the settings screen with stock or cm view
         boolean isCmSecurity = false;
@@ -129,6 +127,7 @@ public class LockscreenSecuritySettings extends RestrictedSettingsFragment
             }
         }
         addPreferencesFromResource(resid);
+        root = getPreferenceScreen();
 
         // lock after preference
         mLockAfter = (ListPreference) root.findPreference(KEY_LOCK_AFTER_TIMEOUT);
