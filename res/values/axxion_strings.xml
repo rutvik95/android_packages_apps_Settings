@@ -662,4 +662,8 @@
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go Mode</string>
     <string name="title_tile_onthego">On-The-Go</string>
+    
+    <!-- Heads Up Timeout -->
+    <string name="heads_up_timeout">Heads up timeout</string>
+    <string name="heads_up_fullscreen_timeout">Heads up timeout on fullscreen</string>
 </resources>
