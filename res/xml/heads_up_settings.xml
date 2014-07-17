@@ -22,7 +22,7 @@
             android:title="@string/heads_up_floating_window"
             android:defaultValue="true" />
 
-    <com.android.settings.cyanogenmod.SeekBarPreference
+    <com.android.settings.axxion.NEWSeekBarPreference
             android:key="heads_up_timeout"
             android:title="@string/heads_up_timeout"
             android:defaultValue="3700"
@@ -30,7 +30,7 @@
             settings:interval="100"
             settings:unitsRight="ms" />
 
-    <com.android.settings.cyanogenmod.SeekBarPreference
+    <com.android.settings.axxion.NEWSeekBarPreference
             android:key="heads_up_fullscreen_timeout"
             android:title="@string/heads_up_fullscreen_timeout"
             android:defaultValue="700"

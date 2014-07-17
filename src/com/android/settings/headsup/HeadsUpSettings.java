@@ -41,7 +41,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Switch;
 
-import com.android.settings.cyanogenmod.SeekBarPreference;
+import com.android.settings.axxion.NEWSeekBarPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
@@ -69,8 +69,8 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements
     private PreferenceGroup mBlacklistPrefList;
     private Preference mAddDndPref;
     private Preference mAddBlacklistPref;
-    private SeekBarPreference mHeadsUpTimeout;
-    private SeekBarPreference mHeadsUpFSTimeout;
+    private NEWSeekBarPreference mHeadsUpTimeout;
+    private NEWSeekBarPreference mHeadsUpFSTimeout;
 
     private String mDndPackageList;
     private String mBlacklistPackageList;
@@ -113,12 +113,12 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements
         mAddDndPref.setOnPreferenceClickListener(this);
         mAddBlacklistPref.setOnPreferenceClickListener(this);
 
-        mHeadsUpTimeout = (SeekBarPreference) findPreference(KEY_HEADS_UP_TIMEOUT);
+        mHeadsUpTimeout = (NEWSeekBarPreference) findPreference(KEY_HEADS_UP_TIMEOUT);
         mHeadsUpTimeout.setValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.HEADS_UP_TIMEOUT, 3700));
         mHeadsUpTimeout.setOnPreferenceChangeListener(this);
 
-        mHeadsUpFSTimeout = (SeekBarPreference) findPreference(KEY_HEADS_UP_FS_TIMEOUT);
+        mHeadsUpFSTimeout = (NEWSeekBarPreference) findPreference(KEY_HEADS_UP_FS_TIMEOUT);
         mHeadsUpFSTimeout.setValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.HEADS_UP_FS_TIMEOUT, 700));
         mHeadsUpFSTimeout.setOnPreferenceChangeListener(this);
