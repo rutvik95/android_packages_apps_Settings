@@ -649,4 +649,8 @@
     <string name="minimum_vibration_duration">Minimum vibration duration</string>
     <!-- Vibration multiplier -->
     <string name="vibrator_multiplier_title">Vibration multiplier</string>    
+    
+    <!-- Show 4G icon instead of LTE. User defined settings -->
+    <string name="show_lte_or_fourgee_title">Show 4G network</string>
+    <string name="show_lte_or_fourgee_summary">This will allow you to show 4G instead of LTE</string>    
 </resources>
