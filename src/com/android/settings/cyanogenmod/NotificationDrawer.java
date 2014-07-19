@@ -36,11 +36,15 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
     private static final String UI_COLLAPSE_BEHAVIOUR = "notification_drawer_collapse_on_dismiss";
     
     private static final String STATUS_BAR_CUSTOM_HEADER = "custom_status_bar_header";
-    
+
+    private static final String PREF_NOTIFICATION_SHOW_WIFI_SSID = "notification_show_wifi_ssid";
+
     private ListPreference mCollapseOnDismiss;
     
     private CheckBoxPreference mStatusBarCustomHeader;
-    
+  
+    private CheckBoxPreference mShowWifiName;
+
     private Preference mHeadsUp;
 
     @Override
@@ -64,6 +68,11 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
         mStatusBarCustomHeader.setChecked(Settings.System.getInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1);
         mStatusBarCustomHeader.setOnPreferenceChangeListener(this);
+        
+        mShowWifiName = (CheckBoxPreference) findPreference(PREF_NOTIFICATION_SHOW_WIFI_SSID);
+        mShowWifiName.setChecked(Settings.System.getInt(getContentResolver(),
+                Settings.System.NOTIFICATION_SHOW_WIFI_SSID, 0) == 1);
+        mShowWifiName.setOnPreferenceChangeListener(this);        
     }
 
     @Override
@@ -88,6 +97,11 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
              Settings.System.putInt(getContentResolver(),
                 Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
             return true;
+        } else if (preference == mShowWifiName) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(),
+                Settings.System.NOTIFICATION_SHOW_WIFI_SSID, value ? 1 : 0);
+            return true;            
         }
         return false;
     }
@@ -97,5 +111,4 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
                 R.array.notification_drawer_collapse_on_dismiss_summaries);
         mCollapseOnDismiss.setSummary(summaries[setting]);
     }
-
 }
