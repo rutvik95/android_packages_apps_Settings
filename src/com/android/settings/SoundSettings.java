@@ -58,7 +58,6 @@ import java.util.Calendar;
 import java.util.List;
 
 import com.android.settings.axxion.SeekBarPreference;
-import com.android.settings.widget.SeekBarPreference;
 
 public class SoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
