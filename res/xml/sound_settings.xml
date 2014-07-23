@@ -113,7 +113,7 @@
             android:summary="@string/notification_vibrate_during_calls_summary"
             android:defaultValue="false" />
 
-    <com.android.settings.widget.SeekBarPreference
+    <com.android.settings.axxion.SeekBarPreference
             android:key="vibration_duration"
             android:title="@string/minimum_vibration_duration" />
 
