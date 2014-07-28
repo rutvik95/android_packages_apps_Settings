@@ -1897,8 +1897,10 @@
             android:name=".axxion.SlimSizer"
             android:label="@string/sizer_title" >
         </activity>
-
-        <!-- "Blacklist settings" UI, used only on voice-capable phone devices. -->
+        
+         <!-- "Blacklist settings" UI, used only on voice-capable phone devices. -->
+        <activity android:name=".cyanogenmod.SpamList" />
+         
         <activity android:name="Settings$BlacklistSettingsActivity"
                 android:theme="@style/Theme.DialogWhenLarge"
                 android:uiOptions="splitActionBarWhenNarrow"
