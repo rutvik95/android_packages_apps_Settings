@@ -21,377 +21,377 @@
     <string name="deny" msgid="6947806159746484865">Refugar</string>
     <string name="device_info_default" msgid="7847265875578739287">Desconocíu</string>
   <plurals name="show_dev_countdown">
-    <item quantity="one" msgid="5295687242294085452">Agora tas a <xliff:g id="STEP_COUNT">%1$d</xliff:g> pasu de ser un desendolcador</item>
-    <item quantity="other" msgid="6722953419953594148">Agora tas a <xliff:g id="STEP_COUNT">%1$d</xliff:g> pasos de ser un desendolcador</item>
+    <item quantity="one">Agora tas a <xliff:g id="step_count">%1$d</xliff:g> pasu de ser desendolcador.</item>
+    <item quantity="other">Agora tas a <xliff:g id="step_count">%1$d</xliff:g> pasos de ser desendolcador.</item>
   </plurals>
-    <string name="show_dev_on" msgid="1110711554982716293">¡Agora tán activaes les opciones de desendolcu!</string>
-    <string name="show_dev_already" msgid="2151632240145446227">Nun fai falta, yá tán activaes les opciones de desendolcu.</string>
-    <string name="header_category_wireless_networks" msgid="4944823405420438623">CONEXONES INALÁMBRIQUES Y REDES</string>
-    <string name="header_category_device" msgid="5781174212691167553">PRESÉU</string>
-    <string name="header_category_personal" msgid="6225932173498802187">PERSONAL</string>
-    <string name="header_category_system" msgid="2073558547468647128">SISTEMA</string>
-    <string name="turn_on_radio" msgid="8706561489788373676">Activar señal móvil</string>
-    <string name="turn_off_radio" msgid="1820294552893884115">Desactivar señal móvil</string>
-    <string name="sms_over_ims_on" msgid="5085290395865632925">Activar SMS por IMS</string>
-    <string name="sms_over_ims_off" msgid="8354792045992793959">Desactivar SMS por IMS</string>
-    <string name="ims_reg_required_on" msgid="3885152087309614653">Ye necesario activar el rexistru de IMS.</string>
-    <string name="ims_reg_required_off" msgid="1720570343422743943">Ye necesario desactivar el rexistru de IMS.</string>
-    <string name="lte_ram_dump_on" msgid="8568568019520172177">Activar volcáu RAM de LTE</string>
-    <string name="lte_ram_dump_off" msgid="2514507918652378283">Desactivar volcáu RAM de LTE</string>
-    <string name="radioInfo_menu_viewADN" msgid="8743377494429930831">Ver llibreta de direiciones de tarxeta SIM</string>
-    <string name="radioInfo_menu_viewFDN" msgid="7934301566925610318">Ver númberos de marcación fixa</string>
-    <string name="radioInfo_menu_viewSDN" msgid="7130280686244955669">Ver númberos de marcación de serviciu</string>
-    <string name="radioInfo_menu_getPDP" msgid="560610293888406317">Obtener llista PDP</string>
-    <string name="radioInfo_service_in" msgid="1915416319177520020">En serviciu</string>
-    <string name="radioInfo_service_out" msgid="5238736759641916278">Fuera de serviciu</string>
-    <string name="radioInfo_service_emergency" msgid="2485604591272668370">Namái llamaes d\'emerxencia</string>
-    <string name="radioInfo_service_off" msgid="1434084741785525415">Señal móvil desactivada</string>
-    <string name="radioInfo_roaming_in" msgid="9045363884600341051">Itinerancia</string>
-    <string name="radioInfo_roaming_not" msgid="2851853244069662307">Ensin itinerancia</string>
-    <string name="radioInfo_phone_idle" msgid="7489244938838742820">Inactivu</string>
-    <string name="radioInfo_phone_ringing" msgid="4883724645684297895">Sonando</string>
-    <string name="radioInfo_phone_offhook" msgid="4174402846862780998">Llamada en cursu</string>
-    <string name="radioInfo_data_disconnected" msgid="1959735267890719418">Desconeutada</string>
-    <string name="radioInfo_data_connecting" msgid="8404571440697917823">Afitando conexón</string>
-    <string name="radioInfo_data_connected" msgid="7074301157399238697">Coneutáu</string>
-    <string name="radioInfo_data_suspended" msgid="5315325487890334196">Suspendíu</string>
-    <string name="radioInfo_unknown" msgid="737385314432468266">desconocíu</string>
-    <string name="radioInfo_display_packets" msgid="8654359809877290639">pqts</string>
-    <string name="radioInfo_display_bytes" msgid="4018206969492931883">bytes</string>
-    <string name="radioInfo_display_dbm" msgid="3621221793699882781">dBm</string>
-    <string name="radioInfo_display_asu" msgid="1422248392727818082">asu</string>
-    <string name="radioInfo_lac" msgid="8415219164758307156">LAC</string>
-    <string name="radioInfo_cid" msgid="4362599198392643138">CID</string>
-    <string name="sdcard_unmount" product="nosdcard" msgid="6325292633327972272">Desactivar USB</string>
-    <string name="sdcard_unmount" product="default" msgid="3364184561355611897">Desactivar tarxeta SD</string>
-    <string name="sdcard_format" product="nosdcard" msgid="6285310523155166716">Desaniciar almacenamientu USB</string>
-    <string name="sdcard_format" product="default" msgid="6713185532039187532">Desaniciar tarxeta SD</string>
-    <string name="small_font" msgid="2295331917424072635">Pequeñu</string>
-    <string name="medium_font" msgid="2068475425515133701">Medianu</string>
-    <string name="large_font" msgid="599055175160971446">Grande</string>
-    <string name="font_size_save" msgid="3450855718056759095">Aceutar</string>
-    <string name="sdcard_setting" product="nosdcard" msgid="8281011784066476192">Almacenamientu USB</string>
-    <string name="sdcard_setting" product="default" msgid="5922637503871474866">Tarxeta SD</string>
-    <string name="battery_info_status_label" msgid="8109155295509700309">Estáu de la batería:</string>
-    <string name="battery_info_power_label" msgid="7465140230991349382">Cargar batería:</string>
-    <string name="battery_info_scale_label" msgid="3649763192389778437">Nivel de batería:</string>
-    <string name="battery_info_level_label" msgid="8706526709307788737">Nivel de batería:</string>
-    <string name="battery_info_health_label" msgid="6416051542741886958">Estáu de la batería:</string>
-    <string name="battery_info_technology_label" msgid="788304533220748681">Teunoloxía de batería:</string>
-    <string name="battery_info_voltage_label" msgid="8971764146757637863">Voltaxe de la batería:</string>
-    <string name="battery_info_voltage_units" msgid="8658490792208288107">mV</string>
-    <string name="battery_info_temperature_label" msgid="1968383098818648037">Temperatura de la batería:</string>
-    <string name="battery_info_temperature_units" msgid="9098950587249987550">°C</string>
-    <string name="battery_info_uptime" msgid="5548545143573527992">Tiempu dende l\'aniciu:</string>
-    <string name="battery_info_awake_battery" msgid="2557725975486185849">Tiempu d\'actividá en batería:</string>
-    <string name="battery_info_awake_plugged" msgid="176716874713478188">Tiempu d\'actividá mientres la carga:</string>
-    <string name="battery_info_screen_on" msgid="376277447175613889">Pantalla de duración d\'encendíu</string>
-    <string name="battery_info_status_unknown" msgid="196130600938058547">Desconocíu</string>
-    <string name="battery_info_status_charging" msgid="1705179948350365604">Cargando</string>
-    <string name="battery_info_status_charging_ac" msgid="5874340256342956252">(CA)</string>
-    <string name="battery_info_status_charging_usb" msgid="4059070156126770959">(USB)</string>
-    <string name="battery_info_status_charging_wireless" msgid="1822125795446772771">(conexones inalámbriques)</string>
-    <string name="battery_info_status_discharging" msgid="310932812698268588">Nun se ta cargando</string>
-    <string name="battery_info_status_not_charging" msgid="2820070506621483576">Nun se ta cargando</string>
-    <string name="battery_info_status_full" msgid="2824614753861462808">Completa</string>
-    <string name="battery_info_power_unplugged" msgid="5987246575519551081">Nun se ta cargando</string>
-    <string name="battery_info_power_ac" msgid="6808516193001604634">CA</string>
-    <string name="battery_info_power_usb" msgid="8012931702516331797">USB</string>
-    <string name="battery_info_power_wireless" msgid="6819163295739305097">conexones inalámbriques</string>
-    <string name="battery_info_power_ac_usb" msgid="6777734146838328688">AC+USB</string>
-    <string name="battery_info_power_unknown" msgid="7344115502868899881">Desconocíu</string>
-    <string name="battery_info_health_unknown" msgid="5664295556921944255">Desconocíu</string>
-    <string name="battery_info_health_good" msgid="8070356565806711806">Bona</string>
-    <string name="battery_info_health_overheat" msgid="8442959549291368806">Sobrecalentamientu</string>
-    <string name="battery_info_health_dead" msgid="1725917445762829059">Escosada</string>
-    <string name="battery_info_health_over_voltage" msgid="2420269351664490121">Sobretensión</string>
-    <string name="battery_info_health_unspecified_failure" msgid="6347021103185471590">Fallu desconocíu</string>
-    <string name="battery_info_health_cold" msgid="3835692786176707318">Nivel baxu</string>
-    <string name="bluetooth" msgid="5549625000628014477">Axustes de Bluetooth</string>
-    <string name="bluetooth_is_discoverable" msgid="8373421452106840526">Visible pa preseos Bluetooth cercanos (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)</string>
-    <string name="bluetooth_is_discoverable_always" msgid="2849387702249327748">Visible pa preseos Bluetooth cercanos</string>
-    <string name="bluetooth_not_visible_to_other_devices" msgid="9120274591523391910">Anubríu pa otros preseos Bluetooth</string>
-    <string name="bluetooth_only_visible_to_paired_devices" msgid="2049983392373296028">Namái visible pa preseos sincronizaos</string>
-    <string name="bluetooth_visibility_timeout" msgid="8002247464357005429">Tiempu de visibilidá</string>
-    <string name="bluetooth_lock_voice_dialing" msgid="3139322992062086225">Bloquiar marcación por voz</string>
-    <string name="bluetooth_lock_voice_dialing_summary" msgid="4741338867496787042">Evitar l\'usu del marcador a traviés de Bluetooth cuando la pantalla tea bloquiada</string>
-    <string name="bluetooth_devices" msgid="1886018064039454227">Preseos Bluetooth</string>
-    <string name="bluetooth_device_name" msgid="8415828355207423800">Nome del preséu</string>
-    <string name="bluetooth_device_details" msgid="4594773497930028085">Axustes del preséu</string>
-    <string name="bluetooth_profile_details" msgid="6823621790324933337">Axustes de perfil</string>
-    <string name="bluetooth_name_not_set" msgid="2653752006416027426">Nun s\'afitó nengún nome; va usase\'l nome de cuenta.</string>
-    <string name="bluetooth_scan_for_devices" msgid="9214184305566815727">Guetar preseos</string>
-    <string name="bluetooth_rename_device" product="tablet" msgid="787970073150631155">Camudar nome de la tablet</string>
-    <string name="bluetooth_rename_device" product="default" msgid="6267987985556136749">Camudar nome del teléfonu</string>
-    <string name="bluetooth_rename_button" msgid="1648028693822994566">Camudar nome</string>
-    <string name="bluetooth_disconnect_title" msgid="6026705382020027966">¿Desconeutar?</string>
-    <string name="bluetooth_disconnect_all_profiles" msgid="9148530542956217908">Va finar la conexón con&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;.</string>
-    <string name="bluetooth_disable_profile_title" msgid="5916643979709342557">¿Inhabilitar perfil?</string>
-    <string name="bluetooth_disable_profile_message" msgid="2895844842011809904">Va inhabilitase&lt;br&gt;&lt;b&gt;<xliff:g id="PROFILE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;de&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%2$s</xliff:g>&lt;/b&gt;.</string>
-    <string name="bluetooth_connected" msgid="6038755206916626419">Coneutáu</string>
-    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">Coneutáu (ensin teléfonu)</string>
-    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">Coneutáu (ensin audiu multimedia)</string>
-    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">Coneutáu (ensin accesu a mensaxes)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">Coneutáu (ensin teléfonu nin multimedia)</string>
-    <string name="bluetooth_disconnected" msgid="6557104142667339895">Desconeutada</string>
-    <string name="bluetooth_disconnecting" msgid="8913264760027764974">Desconeutando…</string>
-    <string name="bluetooth_connecting" msgid="8555009514614320497">Afitando conexón…</string>
-    <string name="bluetooth_unknown" msgid="644716244548801421"></string>
-    <string name="bluetooth_pairing" msgid="1426882272690346242">Enllazando…</string>
-    <string name="bluetooth_device" msgid="5291950341750186887">Preséu Bluetooth ensin nome</string>
-    <string name="progress_scanning" msgid="192587958424295789">Guetando</string>
-    <string name="bluetooth_no_devices_found" msgid="1085232930277181436">Nun hai preseos Bluetooth cercanos.</string>
-    <string name="bluetooth_notif_ticker" msgid="4726721390078512173">Solicitú d\'enllaz de Bluetooth</string>
-    <string name="bluetooth_notif_title" msgid="2485175521845371514">Solicitú d\'enllaz</string>
-    <string name="bluetooth_notif_message" msgid="5300852675110479862">Toca pa enllazar con <xliff:g id="DEVICE_NAME">%1$s</xliff:g></string>
-    <string name="bluetooth_show_received_files" msgid="5164787486105868895">Amosar ficheros recibíos</string>
-    <string name="device_picker" msgid="8398232791303186677">Seleutor de preséu Bluetooth</string>
-    <string name="bluetooth_permission_request" msgid="1523129741266262748">Solicitú de permisu de Bluetooth</string>
-    <string name="bluetooth_ask_enablement" msgid="637355677176904990">Una aplicación quier activar el Bluetooth.</string>
-    <string name="bluetooth_ask_discovery" product="tablet" msgid="786921566047356213">Una aplicación quier facer visible la to tablet pa otros preseos Bluetooth mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
-    <string name="bluetooth_ask_discovery" product="default" msgid="5510358858113713272">Una aplicación quier facer visible\'l teléfonu pa otros preseos Bluetooth mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
-    <string name="bluetooth_ask_lasting_discovery" product="tablet" msgid="8863617309580598607">Una aplicación quier facer visible la tablet pa otros preseos Bluetooth. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
-    <string name="bluetooth_ask_lasting_discovery" product="default" msgid="6487606808683607975">Una aplicación quier facer visible\'l teléfonu pa otros preseos Bluetooth. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="tablet" msgid="3346529092809011149">Una aplicación quier activar el Bluetooth y facer visible la tablet pa otros preseos mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
-    <string name="bluetooth_ask_enablement_and_discovery" product="default" msgid="4724094889807196118">Una aplicación quier activar el Bluetooth y facer visible\'l teléfonu pa otros preseos mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet" msgid="989613204829097159">Una aplicación quier activar el Bluetooth y facer visible la tablet pa otros preseos. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
-    <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default" msgid="6671615712909139801">Una aplicación quier activar el Bluetooth y facer visible\'l teléfonu pa otros preseos. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
-    <string name="bluetooth_turning_on" msgid="4850574877288036646">Activando Bluetooth…</string>
-    <string name="bluetooth_turning_off" msgid="2337747302892025192">Desactivando Bluetooth…</string>
-    <string name="bluetooth_auto_connect" msgid="40711424456733571">Conexón automática</string>
-    <string name="bluetooth_connection_permission_request" msgid="4747918249032890077">Solicitú p\'afitar conexón de Bluetooth</string>
-    <string name="bluetooth_connection_notif_message" msgid="3687933246423942977">Toca pa coneutate a \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\".</string>
-    <string name="bluetooth_connection_dialog_text" msgid="8455427559949998023">¿Quies coneutate a <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?</string>
-    <string name="bluetooth_phonebook_request" msgid="3951420080540915279">Solicitú d\'accesu a axenda teléfonica</string>
-    <string name="bluetooth_pb_acceptance_dialog_text" msgid="6555508756987053866">%1$s quier acceder a los contautos y al historial de llamaes. ¿Quies permitir l\'accesu a %2$s?</string>
-    <string name="bluetooth_remember_choice" msgid="6198284561603824931">Nun volver a entrugar</string>
-    <string name="bluetooth_pb_remember_choice" msgid="2901499974259177202">Nun volver a entrugar</string>
-    <string name="bluetooth_map_request" msgid="4595727689513143902">Solicitú d\'accesu a mensaxes</string>
-    <string name="bluetooth_map_acceptance_dialog_text" msgid="8712508202081143737">%1$s quier acceder a los mensaxes. ¿Quies permitir l\'accesu a %2$s?</string>
-    <string name="date_and_time" msgid="4114084177056654663">Axustes de data y hora</string>
-    <string name="choose_timezone" msgid="1362834506479536274">Seleicionar estaya horaria</string>
-    <string name="normal_date_format" msgid="7636406984925498359">Rexonal (<xliff:g id="DATE">%s</xliff:g>)</string>
-    <string name="display_preview_label" msgid="1127597250917274792">Vista previa:</string>
-    <string name="display_font_size_label" msgid="8941851418397475389">Tamañu de fonte:</string>
-    <!-- no translation found for intent_sender_data_label (6332324780477289261) -->
-    <skip />
-    <string name="intent_sender_sendbroadcast_text" msgid="1415735148895872715">Unviar <xliff:g id="BROADCAST">broadcast</xliff:g></string>
-    <string name="intent_sender_action_label" msgid="616458370005452389"><xliff:g id="ACTION">Aición</xliff:g>:</string>
-    <string name="intent_sender_startactivity_text" msgid="5080516029580421895">Aniciar <xliff:g id="ACTIVITY">activity</xliff:g></string>
-    <string name="intent_sender_resource_label" msgid="6963659726895482829"><xliff:g id="RESOURCE">Resource</xliff:g>:</string>
-    <string name="intent_sender_account_label" msgid="465210404475603404">Cuenta:</string>
-    <string name="proxy_settings_title" msgid="9049437837600320881">Proxy</string>
-    <string name="proxy_clear_text" msgid="5555400754952012657">Desaniciar</string>
-    <string name="proxy_port_label" msgid="5655276502233453400">Puertu proxy</string>
-    <string name="proxy_exclusionlist_label" msgid="7700491504623418701">Omitir proxy pa</string>
-    <string name="proxy_exclusionlist_hint" msgid="6084099226687226948">example.com,mycomp.test.com,localhost</string>
-    <string name="proxy_defaultView_text" msgid="6387985519141433291">Restaurar valores predeterminaos</string>
-    <string name="proxy_action_text" msgid="2957063145357903951">Ok</string>
-    <string name="proxy_hostname_label" msgid="8490171412999373362">Nome de host de proxy</string>
-    <string name="proxy_hostname_hint" msgid="2076157057003936176">proxy.example.com</string>
-    <string name="proxy_error" msgid="8926675299638611451">Atención</string>
-    <string name="proxy_error_dismiss" msgid="4993171795485460060">Aceutar</string>
-    <string name="proxy_error_invalid_host" msgid="8052095511862922213">El nome de host inxertáu nun ye válidu.</string>
-    <string name="proxy_error_invalid_exclusion_list" msgid="6467799485443290961">La llista d\'esclusión qu\'escribisti nun ye correcta. Escribi una llista separtada por comes de dominios escluyíos.</string>
-    <string name="proxy_error_empty_port" msgid="5539106187558215246">Tienes de completar el campu de puertu.</string>
-    <string name="proxy_error_empty_host_set_port" msgid="2451694104858226781">El campu de puertu tien de tar baleru si\'l campu de host tamién lo ta.</string>
-    <string name="proxy_error_invalid_port" msgid="2671425042711054494">El puertu qu\'introduxisti nun ye válidu.</string>
-    <string name="proxy_warning_limited_support" msgid="7229337138062837422">El restolador usa\'l proxy HTTP, pero nun puen usalu otres aplicaciones.</string>
-    <string name="proxy_url" msgid="2523518669129974654">URL de configuración automática de proxy: </string>
-    <string name="radio_info_signal_location_label" msgid="16475158265551708">Llocalización:</string>
-    <string name="radio_info_neighboring_location_label" msgid="2385625674055934880">CID anexu</string>
-    <string name="radio_info_cellinfo_label" msgid="1300937728020622362">Información móvil:</string>
-    <string name="radio_info_data_attempts_label" msgid="1731106244577323381">Intentos de datos:</string>
-    <string name="radio_info_gprs_service_label" msgid="2331818110375395364">Serviciu GPRS:</string>
-    <string name="radio_info_roaming_label" msgid="6141505430275138647">Itinerancia:</string>
-    <string name="radio_info_imei_label" msgid="1220524224732944192">IMEI:</string>
-    <string name="radio_info_call_redirect_label" msgid="1654674226961476872">Esvíu de llamada:</string>
-    <string name="radio_info_ppp_resets_label" msgid="3241667824729310546">Númberu de PPP restablecíu dende l\'aniciu:</string>
-    <string name="radio_info_gsm_disconnects_label" msgid="1683069665736339820">Desconexón de GSM:</string>
-    <string name="radio_info_current_network_label" msgid="3256402602440102610">Rede actual:</string>
-    <string name="radio_info_data_successes_label" msgid="4417894113689054945">Datos correutos:</string>
-    <string name="radio_info_ppp_received_label" msgid="3345184342444878849">PPP recibíu:</string>
-    <string name="radio_info_gsm_service_label" msgid="2082332114596916985">Serviciu GSM:</string>
-    <string name="radio_info_signal_strength_label" msgid="1931937920896925766">Intensidá de la señal:</string>
-    <string name="radio_info_call_status_label" msgid="4896238900685510883">Estáu de la llamada:</string>
-    <string name="radio_info_ppp_sent_label" msgid="5009102250704375687">PPP enviado:</string>
-    <string name="radio_info_radio_resets_label" msgid="9211343458143291617">Restablecimientos de señal móvil:</string>
-    <string name="radio_info_message_waiting_label" msgid="6981842420058672207">Mensaxe n\'espera:</string>
-    <string name="radio_info_phone_number_label" msgid="7192944627907412169">Númberu de teléfonu:</string>
-    <string name="radio_info_band_mode_label" msgid="441469694142042022">Seleicionar banda de señal móvil</string>
-    <string name="radio_info_network_type_label" msgid="3706382548257257987">Tipu de rede:</string>
-    <string name="radio_info_set_perferred_label" msgid="9039200405863503267">Afitar tipu de rede preferíu:</string>
-    <string name="radio_info_ping_ipaddr" msgid="498747917793263530">Facer ping a DirIP:</string>
-    <string name="radio_info_ping_hostname" msgid="3054888474808217853">Facer ping a nome de host (www.google.com):</string>
-    <string name="radio_info_http_client_test" msgid="5733604021077701555">Prueba de veceru HTTP:</string>
-    <string name="ping_test_label" msgid="7255376471490860631">Executar prueba de ping</string>
-    <string name="radio_info_smsc_label" msgid="6399460520126501354">SMSC:</string>
-    <string name="radio_info_smsc_update_label" msgid="7258686760358791539">Anovar</string>
-    <string name="radio_info_smsc_refresh_label" msgid="6902302130315125102">Anovar</string>
-    <string name="radio_info_toggle_dns_check_label" msgid="8292252930563286858">alternar comprobación de DNS</string>
-    <string name="oem_radio_info_label" msgid="6163141792477958941">Axustes/información específica de OEM</string>
-    <string name="band_mode_title" msgid="954174198903776205">Afitar banda GSM/UMTS</string>
-    <string name="band_mode_loading" msgid="548764766363847336">Cargando llista de bandes…</string>
-    <string name="band_mode_set" msgid="5730560180249458484">Afitar</string>
-    <string name="band_mode_failed" msgid="1495968863884716379">Con fallu</string>
-    <string name="band_mode_succeeded" msgid="2701016190055887575">Correcto</string>
-    <string name="sdcard_changes_instructions" msgid="4482324130377280131">Los cambeos van aplicase cuando se vuelva a coneutar el cable USB.</string>
-    <string name="sdcard_settings_screen_mass_storage_text" msgid="3741220147296482474">Habilitar almacenamientu masivu USB</string>
-    <string name="sdcard_settings_total_bytes_label" msgid="9184160745785062144">Bytes totales:</string>
-    <string name="sdcard_settings_not_present_status" product="nosdcard" msgid="1636218515775929394">USB non activáu</string>
-    <string name="sdcard_settings_not_present_status" product="default" msgid="2048419626134861599">Falta la tarxeta SD.</string>
-    <string name="sdcard_settings_available_bytes_label" msgid="763232429899373001">Bytes disponibles:</string>
-    <string name="sdcard_settings_mass_storage_status" product="nosdcard" msgid="7993410985895217054">USB como almacenamientu masivu</string>
-    <string name="sdcard_settings_mass_storage_status" product="default" msgid="2742075324087038036">La tarxeta SD ta usándose como preséu d\'almacenamientu masivu.</string>
-    <string name="sdcard_settings_unmounted_status" product="nosdcard" msgid="9191210735703409245">Ye seguro estrayer l\'almacenamientu USB.</string>
-    <string name="sdcard_settings_unmounted_status" product="default" msgid="6462544066195404905">Ye seguro estrayer la tarxeta SD.</string>
-    <string name="sdcard_settings_bad_removal_status" product="nosdcard" msgid="7761390725880773697">USB estrayíu n\'usu</string>
-    <string name="sdcard_settings_bad_removal_status" product="default" msgid="5145797653495907970">La tarxeta SD estráxose mentanto taba n\'usu.</string>
-    <string name="sdcard_settings_used_bytes_label" msgid="8820289486001170836">Bytes usaos:</string>
-    <string name="sdcard_settings_scanning_status" product="nosdcard" msgid="7503429447676219564">Guetando ficheros almac USB…</string>
-    <string name="sdcard_settings_scanning_status" product="default" msgid="2763464949274455656">Guetando medios en tarxeta SD…</string>
-    <string name="sdcard_settings_read_only_status" product="nosdcard" msgid="3624143937437417788">Almacenamientu USB activáu como namái llectura</string>
-    <string name="sdcard_settings_read_only_status" product="default" msgid="4518291824764698112">La tarxeta SD ta activada en mou de namái llectura.</string>
-    <string name="skip_label" msgid="47510779345218297">Saltar</string>
-    <string name="next_label" msgid="4693520878012668114">Siguiente</string>
-    <string name="language_picker_title" msgid="5349877711342869319">Llingua</string>
-    <string name="activity_picker_label" msgid="6295660302548177109">Esbillar actividá</string>
-    <string name="device_info_label" msgid="6551553813651711205">Información del preséu</string>
-    <string name="battery_info_label" msgid="4132685016148679403">Información tocante a la batería</string>
-    <string name="display_label" msgid="8074070940506840792">Pantalla</string>
-    <string name="phone_info_label" product="tablet" msgid="7820855350955963628">Información de la tablet</string>
-    <string name="phone_info_label" product="default" msgid="2127552523124277664">Información del teléfonu</string>
-    <string name="sd_card_settings_label" product="nosdcard" msgid="8101475181301178428">Almacenamientu USB</string>
-    <string name="sd_card_settings_label" product="default" msgid="5743100901106177102">Tarxeta SD</string>
-    <string name="proxy_settings_label" msgid="3271174136184391743">Axustes de proxy</string>
-    <string name="cancel" msgid="6859253417269739139">Encaboxar</string>
-    <string name="settings_label" msgid="1626402585530130914">Axustes</string>
-    <string name="settings_label_launcher" msgid="8344735489639482340">Axustes</string>
-    <string name="settings_shortcut" msgid="3936651951364030415">Accesu a Axustes</string>
-    <string name="airplane_mode" msgid="8837269988154128601">Mou avión</string>
-    <string name="radio_controls_title" msgid="6889937359495515769">Más…</string>
-    <string name="wireless_networks_settings_title" msgid="3643009077742794212">Conexones inalámbriques y redes</string>
-    <string name="radio_controls_summary" msgid="1838624369870907268">Alministrar Wi‑Fi, Bluetooth, mou avión, redes móviles y redes VPN</string>
-    <string name="roaming" msgid="3596055926335478572">Itinerancia de datos</string>
-    <string name="roaming_enable" msgid="3737380951525303961">Afitar conexón con servicios de datos n\'itinerancia</string>
-    <string name="roaming_disable" msgid="1295279574370898378">Afitar conexón con servicios de datos n\'itinerancia</string>
-    <string name="roaming_reenable_message" msgid="9141007271031717369">Perdióse la coneutividá de datos porque dexesti desactivada la itinerancia de datos de la rede doméstica.</string>
-    <string name="roaming_turn_it_on_button" msgid="4387601818162120589">Activala</string>
-    <string name="roaming_warning" msgid="7625933694709170887">Al permitir la itinerancia de datos, ye dable que te facturen cargos adicionales elevaos.</string>
-    <string name="roaming_warning_multiuser" product="tablet" msgid="6458990250829214777">Al permitir la itinerancia de datos, los costes d\'itinerancia puen ser significativos.\n\nEsta configuración afecta a tolos usuarios d\'esta tablet.</string>
-    <string name="roaming_warning_multiuser" product="default" msgid="6368421100292355440">Al permitir la itinerancia de datos, los costes d\'itinerancia puen ser significativos.\n\nEsta configuración afecta a tolos usuarios d\'esti teléfonu.</string>
-    <string name="roaming_reenable_title" msgid="6068100976707316772">¿Permitir itinerancia de datos?</string>
-    <string name="networks" msgid="6333316876545927039">Escoyeta d\'operador</string>
-    <string name="sum_carrier_select" msgid="3616956422251879163">Esbillar un operador de rede</string>
-    <string name="date_and_time_settings_title" msgid="3350640463596716780">Data y hora</string>
-    <string name="date_and_time_settings_title_setup_wizard" msgid="2391530758339384324">Afitar hora y data</string>
-    <string name="date_and_time_settings_summary" msgid="7095318986757583584">Afitar hora, data, estaya horaria y formatos</string>
-    <string name="date_time_auto" msgid="7076906458515908345">Hora y data automátiques</string>
-    <string name="date_time_auto_summaryOn" msgid="4609619490075140381">Usar hora proporcionada pola rede</string>
-    <string name="date_time_auto_summaryOff" msgid="8698762649061882791">Usar hora proporcionada pola rede</string>
-    <string name="zone_auto" msgid="334783869352026648">Estaya horaria automática</string>
-    <string name="zone_auto_summaryOn" msgid="6142830927278458314">Usar estaya horaria proporcionada pola rede</string>
-    <string name="zone_auto_summaryOff" msgid="2597745783162041390">Usar estaya horaria proporcionada pola rede</string>
-    <string name="date_time_24hour" msgid="1193032284921000063">Formatu de 24 hores</string>
-    <string name="date_time_set_time" msgid="5716856602742530696">Afitar hora</string>
-    <string name="date_time_set_timezone" msgid="5045627174274377814">Esbillar estaya horaria</string>
-    <string name="date_time_set_date" msgid="7021491668550232105">Afitar data</string>
-    <string name="date_time_date_format" msgid="6951498879879281102">Formatu de data</string>
-    <string name="zone_list_menu_sort_alphabetically" msgid="5683377702671088588">Ordenar alfabéticamente</string>
-    <string name="zone_list_menu_sort_by_timezone" msgid="2720190443744884114">Ordenar por estaya horaria</string>
-    <string name="date_picker_title" msgid="1338210036394128512">Data</string>
-    <string name="time_picker_title" msgid="483460752287255019">Hora</string>
-    <string name="biometric_weak_improve_matching_title" msgid="8754080894393195194">Meyorar el reconocimientu facial</string>
-    <string name="biometric_weak_liveliness_title" msgid="2661613702124561096">Reconocimientu facial</string>
-    <string name="biometric_weak_liveliness_summary" msgid="4199587000948042325">Solicitar parpaguéu al desbloquiar</string>
-    <string name="lock_after_timeout" msgid="4590337686681194648">Bloquiar automáticamente</string>
-    <string name="lock_after_timeout_summary" msgid="6128431871360905631">Tres <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> dempués de suspender</string>
-    <string name="show_owner_info_on_lockscreen_label" msgid="5074906168357568434">Amosar datos del propietariu na pantalla de bloquéu</string>
-    <string name="owner_info_settings_title" msgid="2723190010708381889">Información del propietariu</string>
-    <string name="security_enable_widgets_title" msgid="2754833397070967846">Habilitar widgets</string>
-    <string name="security_enable_widgets_disabled_summary" msgid="1557090442377855233">Inhabilitáu pol alministrador</string>
-    <string name="owner_info_settings_summary" msgid="3800834657847339570"></string>
-    <string name="owner_info_settings_edit_text_hint" msgid="4608681417960923911">Introduz el testu que va amosase na pantalla de bloquéu.</string>
-    <string name="show_user_info_on_lockscreen_label" msgid="8408914624925608365">Amosar información d\'usuariu na pantalla de bloquéu</string>
-    <string name="user_info_settings_title" msgid="1195015434996724736">Información del usuariu</string>
-    <string name="show_profile_info_on_lockscreen_label" msgid="2741208907263877990">Amosar información de perfil en pantalla bloquéu</string>
-    <string name="profile_info_settings_title" msgid="3518603215935346604">Información perfil</string>
-    <string name="location_settings_title" msgid="1369675479310751735">Llocalización</string>
-    <string name="security_settings_title" msgid="7945465324818485460">Seguridá</string>
-    <string name="security_settings_summary" msgid="967393342537986570">Afitar Mio llocalización, bloquéu de pantalla, bloquéu de tarxeta SIM y bloquéu d\'almacenamientu de credenciales</string>
-    <string name="cdma_security_settings_summary" msgid="6068799952798901542">Afitar llocalización, bloquéu de pantalla y bloquéu d\'almacenamientu de credenciales</string>
-    <string name="security_passwords_title" msgid="2930627259125138363">Contraseñes</string>
-    <string name="crypt_keeper_settings_title" msgid="4219233835490520414">Cifráu</string>
-    <string name="crypt_keeper_encrypt_title" product="tablet" msgid="1060273569887301457">Cifrar tablet</string>
-    <string name="crypt_keeper_encrypt_title" product="default" msgid="1878996487755806122">Cifrar teléfonu</string>
-    <string name="crypt_keeper_encrypt_summary" product="tablet" msgid="6291564408810586">Solicitar una contraseña o un PIN numbéricu pa descifrar la tablet cada vegada que se prenda</string>
-    <string name="crypt_keeper_encrypt_summary" product="default" msgid="514138079795442371">Solicitar una contraseña o un PIN numbéricu pa descifrar el teléfonu cada vegada que se prenda</string>
-    <string name="crypt_keeper_encrypted_summary" msgid="1868233637888132906">Cifráu</string>
-    <string name="crypt_keeper_desc" product="tablet" msgid="3839235202103924154">Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes y los sos datos, ficheros multimedia y otres tribes de ficheros. Cuando cifres la tablet, tienes d\'inxertar un PIN o una contraseña pa descifrala cada vegada que la prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos de la tablet.\n\nEl procesu de cifráu tarda alrodiu d\'una hora. Tienes d\'aniciar esti procesu con una batería cargada y caltener la tablet coneutada hasta que fine\'l procesu. Si s\'interrumpe\'l procesu de cifráu, perderás los datos total o parcialmente.</string>
-    <string name="crypt_keeper_desc" product="default" msgid="7663118199519229502">Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes y los sos datos, ficheros multimedia y otres tribes de ficheros. Cuando cifres el teléfonu, tienes d\'inxertar un PIN o una contraseña pa descifralu cada vegada que lu prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos del teléfonu.\n\nEl procesu de cifráu tarda alrodiu d\'una hora. Tienes d\'aniciar esti procesu con una batería cargada y caltener el teléfonu coneutáu hasta que fine\'l procesu. Si s\'interrumpe\'l procesu de cifráu, perderás los datos total o parcialmente.</string>
-    <string name="crypt_keeper_button_text" product="tablet" msgid="1189623490604750854">Cifrar tablet</string>
-    <string name="crypt_keeper_button_text" product="default" msgid="2008346408473255519">Cifrar teléfonu</string>
-    <string name="crypt_keeper_low_charge_text" msgid="2029407131227814893">Carga la batería y vuelvi a intentalo.</string>
-    <string name="crypt_keeper_unplugged_text" msgid="4785376766063053901">Coneuta\'l cargador y vuelvi a intentalo.</string>
-    <string name="crypt_keeper_dialog_need_password_title" msgid="4058971800557767">Falta la contraseña o\'l PIN de la pantalla de bloquéu</string>
-    <string name="crypt_keeper_dialog_need_password_message" msgid="4071395977297369642">Tienes d\'afitar una contraseña o un PIN de la pantalla de bloquéu pa poder aniciar el procesu de cifráu.</string>
-    <string name="crypt_keeper_confirm_title" msgid="5100339496381875522">¿Cifrar preséu?</string>
-    <string name="crypt_keeper_final_desc" product="tablet" msgid="4453629424172409792">La operación de cifráu nun pue desfacese, y si la encaboxes vas perder datos. El cifráu tarda alrodiu d\'una hora y la tablet reaníciase delles vegaes mientres esti procesu.</string>
-    <string name="crypt_keeper_final_desc" product="default" msgid="5682944380460921880">La operación de cifráu nun pue desfacese, y si la encaboxes vas perder datos. El cifráu tarda alrodiu d\'una hora y el teléfonu reaníciase delles vegaes mientres esti procesu.</string>
-    <string name="crypt_keeper_setup_title" msgid="1783951453124244969">Encriptando</string>
-    <string name="crypt_keeper_setup_description" product="tablet" msgid="6689952371032099350">Espera mentanto se cifra la tablet. <xliff:g id="PERCENT">^1</xliff:g>% completáu</string>
-    <string name="crypt_keeper_setup_description" product="default" msgid="951918761585534875">Espera mentanto se cifra el teléfonu. <xliff:g id="PERCENT">^1</xliff:g>% completáu</string>
-    <string name="crypt_keeper_cooldown" msgid="685210918307862395">Espera <xliff:g id="DELAY">^1</xliff:g> segundos y vuelvi a intentalo.</string>
-    <string name="crypt_keeper_enter_password" msgid="2223340178473871064">Escribi la contraseña</string>
-    <string name="crypt_keeper_failed_title" msgid="7133499413023075961">Fallu nel cifráu</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="4478225241476039013">El procesu de cifráu paróse y nun pue completase. Poro, nun vas poder acceder a los datos de la tablet. \n\nTienes de restablecer los datos de fábrica pa volver a usar la tablet. Cuando configures la tablet dempués d\'esti procesu, podrás restaurar los datos de los que tengas copia de seguridá na to cuenta de Google.</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3083477162766772532">El procesu de cifráu paróse y nun pue completase. Poro, nun vas poder acceder a los datos del teléfonu. \n\nTienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuando configures el teléfonu dempués d\'esti procesu, podrás restaurar los datos de los que tengas copia de seguridá na to cuenta de Google.</string>
-    <string name="crypt_keeper_switch_input_method" msgid="4168332125223483198">Camudar métodu d\'entrada</string>
-    <string name="lock_settings_picker_title" msgid="1095755849152582712">Escoyer bloquéu de pantalla</string>
-    <string name="backup_lock_settings_picker_title" msgid="8530380598637963916">Bloquéu alternativu</string>
-    <string name="unlock_set_unlock_launch_picker_title" msgid="2084576942666016993">Bloquéu de pantalla</string>
-    <string name="unlock_set_unlock_launch_picker_change_title" msgid="5045866882028324941">Camudar pantalla de bloquéu</string>
-    <string name="unlock_set_unlock_launch_picker_change_summary" msgid="2790960639554590668">Cambia o inhabilita seguridá contraseña, PIN o patrón</string>
-    <string name="unlock_set_unlock_launch_picker_enable_summary" msgid="4791110798817242301">Esbilla un métodu pa bloquiar la pantalla.</string>
-    <string name="unlock_backup_info_summary" msgid="108524727803788172">Si\'l desbloquéu facial nun te reconoz, ¿cómo quies desbloquiar la pantalla?</string>
-    <string name="unlock_set_unlock_off_title" msgid="7117155352183088342">Ensin seguridá</string>
-    <string name="unlock_set_unlock_off_summary" msgid="94361581669110415"></string>
-    <string name="unlock_set_unlock_none_title" msgid="2871898266296656162">Eslizar</string>
-    <string name="unlock_set_unlock_none_summary" msgid="8914673583104628191">Ensin seguridá</string>
-    <string name="unlock_set_unlock_biometric_weak_title" msgid="2227215291604628670">Desbloquéu facial</string>
-    <string name="unlock_set_unlock_biometric_weak_summary" msgid="180083326982058964">Seguridá baxa (esperimental)</string>
-    <string name="unlock_set_unlock_pattern_title" msgid="2912067603917311700">Patrón</string>
-    <string name="unlock_set_unlock_pattern_summary" msgid="7062696666227725593">Seguridá media</string>
-    <string name="unlock_set_unlock_pin_title" msgid="5846029709462329515">PIN</string>
-    <string name="unlock_set_unlock_pin_summary" msgid="907878650556383388">Seguridá media-alta</string>
-    <string name="unlock_set_unlock_password_title" msgid="8775603825675090937">Contraseña</string>
-    <string name="unlock_set_unlock_password_summary" msgid="8856220848940929546">Seguridá alta</string>
-    <string name="unlock_set_unlock_disabled_summary" msgid="2120729867788851674">Desactiváu pol alministrador, política de cifráu o almacenamientu de credenciales</string>
-    <string name="unlock_set_unlock_mode_off" msgid="5881952274566013651">Dengún</string>
-    <string name="unlock_set_unlock_mode_none" msgid="5660014471997663139">Deslizar</string>
-    <string name="unlock_set_unlock_mode_biometric_weak" msgid="3008473624490350142">Desbloquéu facial</string>
-    <string name="unlock_set_unlock_mode_pattern" msgid="7837270780919299289">Patrón</string>
-    <string name="unlock_set_unlock_mode_pin" msgid="3541326261341386690">PIN</string>
-    <string name="unlock_set_unlock_mode_password" msgid="1203938057264146610">Contraseña</string>
-    <string name="unlock_disable_lock_title" msgid="1427036227416979120">Desactivar bloquéu pantalla</string>
-    <string name="unlock_disable_lock_pattern_summary" msgid="6801602880568869201">Desaniciar patrón de desbloquéu</string>
-    <string name="unlock_disable_lock_pin_summary" msgid="8856842745366993387">Desaniciar PIN de desbloquéu</string>
-    <string name="unlock_disable_lock_password_summary" msgid="192161194564577025">Desaniciar contraseña de desbloquéu</string>
-    <string name="unlock_change_lock_pattern_title" msgid="2044092014872741130">Camudar patrón desbloquéu</string>
-    <string name="unlock_change_lock_pin_title" msgid="806629901095938484">Camudar PIN de desbloquéu</string>
-    <string name="unlock_change_lock_password_title" msgid="5606298470358768865">Camudar contraseña de desbloquéu</string>
-    <string name="lockpassword_password_too_short" msgid="7328975683669256660">La contraseña tien de tener a lo menos %d caráuteres.</string>
-    <string name="lockpassword_pin_too_short" msgid="1677649103470518953">El PIN tien de tener como mínimu %d díxitos.</string>
-    <string name="lockpassword_press_continue" msgid="122706614386757182">Tocar Continuar al terminar</string>
-    <string name="lockpassword_continue_label" msgid="4602203784934526940">Continuar</string>
-    <string name="lockpassword_password_too_long" msgid="7016906583950201704">La contraseña tien de tener menos de <xliff:g id="NUMBER">%d</xliff:g> caráuteres.</string>
-    <string name="lockpassword_pin_too_long" msgid="6419879099090294052">El PIN tien de tener menos de <xliff:g id="NUMBER">%d</xliff:g> díxitos.</string>
-    <string name="lockpassword_pin_contains_non_digits" msgid="1079053457942945709">El PIN namái tien de tener díxitos comprendíos ente\' 0 y el 9.</string>
-    <string name="lockpassword_pin_recently_used" msgid="7909781183925861119">L\'alministrador de preseos nun permite usar un PIN reciente.</string>
-    <string name="lockpassword_illegal_character" msgid="8742901630116866738">La contraseña contién un caráuter non permitíu.</string>
-    <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">La contraseña tien de tener polo menos una lletra.</string>
-    <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">La contraseña tien de tener polo menos un díxitu.</string>
-    <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">La contraseña tien de tener polo menos un símbolu.</string>
+  <string name="show_dev_on">¡Agora yes un desendolcador!</string>
+  <string name="show_dev_already">Nun hai necesidá, yá yes un desendolcador.</string>
+  <string name="header_category_wireless_networks">CONEXONES INALÁMBRIQUES Y REDES</string>
+  <string name="header_category_device">PRESÉU</string>
+  <string name="header_category_personal">PERSONAL</string>
+  <string name="header_category_system">SISTEMA</string>
+  <string name="turn_on_radio">Activar señal móvil</string>
+  <string name="turn_off_radio">Desactivar señal móvil</string>
+  <string name="sms_over_ims_on">Activar SMS por IMS</string>
+  <string name="sms_over_ims_off">Desactivar SMS por IMS</string>
+  <string name="ims_reg_required_on">Ye necesario activar el rexistru de IMS.</string>
+  <string name="ims_reg_required_off">Ye necesario desactivar el rexistru de IMS.</string>
+  <string name="lte_ram_dump_on">Activar volcáu RAM de LTE</string>
+  <string name="lte_ram_dump_off">Desactivar volcáu RAM de LTE</string>
+  <string name="radioInfo_menu_viewADN">Ver llibreta de direiciones de tarxeta SIM</string>
+  <string name="radioInfo_menu_viewFDN">Ver númberos de marcación fixa</string>
+  <string name="radioInfo_menu_viewSDN">Ver númberos de marcación de serviciu</string>
+  <string name="radioInfo_menu_getPDP">Obtener llista PDP</string>
+  <string name="radioInfo_service_in">En serviciu</string>
+  <string name="radioInfo_service_out">Fuera de serviciu</string>
+  <string name="radioInfo_service_emergency">Namái llamaes d\'emerxencia</string>
+  <string name="radioInfo_service_off">Señal móvil desactivada</string>
+  <string name="radioInfo_roaming_in">Itinerancia</string>
+  <string name="radioInfo_roaming_not">Ensin itinerancia</string>
+  <string name="radioInfo_phone_idle">Inactivu</string>
+  <string name="radioInfo_phone_ringing">Sonando</string>
+  <string name="radioInfo_phone_offhook">Llamada en cursu</string>
+  <string name="radioInfo_data_disconnected">Desconeutada</string>
+  <string name="radioInfo_data_connecting">Afitando conexón</string>
+  <string name="radioInfo_data_connected">Coneutáu</string>
+  <string name="radioInfo_data_suspended">Suspendíu</string>
+  <string name="radioInfo_unknown">desconocíu</string>
+  <string name="radioInfo_display_packets">pqts</string>
+  <string name="radioInfo_display_bytes">bytes</string>
+  <string name="radioInfo_display_dbm">dBm</string>
+  <string name="radioInfo_display_asu">asu</string>
+  <string name="radioInfo_lac">LAC</string>
+  <string name="radioInfo_cid">CID</string>
+  <string name="sdcard_unmount" product="nosdcard">Desactivar USB</string>
+  <string name="sdcard_unmount" product="default">Desactivar tarxeta SD</string>
+  <string name="sdcard_format" product="nosdcard">Desaniciar almacenamientu USB</string>
+  <string name="sdcard_format" product="default">Desaniciar tarxeta SD</string>
+  <string name="small_font">Pequeñu</string>
+  <string name="medium_font">Medianu</string>
+  <string name="large_font">Grande</string>
+  <string name="font_size_preview_text">Servez à ce monsieur une bière et des kiwis.</string>
+  <string name="font_size_save">Aceutar</string>
+  <string name="sdcard_setting" product="nosdcard">Almacenamientu USB</string>
+  <string name="sdcard_setting" product="default">Tarxeta SD</string>
+  <string name="battery_info_status_label">Estáu de la batería:</string>
+  <string name="battery_info_power_label">Cargar batería:</string>
+  <string name="battery_info_scale_label">Nivel de batería:</string>
+  <string name="battery_info_level_label">Nivel de batería:</string>
+  <string name="battery_info_health_label">Estáu de la batería:</string>
+  <string name="battery_info_technology_label">Teunoloxía de batería:</string>
+  <string name="battery_info_voltage_label">Voltaxe de la batería:</string>
+  <string name="battery_info_voltage_units">mV</string>
+  <string name="battery_info_temperature_label">Temperatura de la batería:</string>
+  <string name="battery_info_temperature_units">°C</string>
+  <string name="battery_info_uptime">Tiempu dende l\'aniciu:</string>
+  <string name="battery_info_awake_battery">Tiempu d\'actividá en batería:</string>
+  <string name="battery_info_awake_plugged">Tiempu d\'actividá mientres la carga:</string>
+  <string name="battery_info_screen_on">Pantalla de duración d\'encendíu</string>
+  <string name="battery_info_status_unknown">Desconocíu</string>
+  <string name="battery_info_status_charging">Cargando</string>
+  <string name="battery_info_status_charging_ac">(CA)</string>
+  <string name="battery_info_status_charging_usb">(USB)</string>
+  <string name="battery_info_status_charging_wireless">(conexones inalámbriques)</string>
+  <string name="battery_info_status_discharging">Nun se ta cargando</string>
+  <string name="battery_info_status_not_charging">Nun se ta cargando</string>
+  <string name="battery_info_status_full">Completa</string>
+  <string name="battery_info_power_unplugged">Nun se ta cargando</string>
+  <string name="battery_info_power_ac">CA</string>
+  <string name="battery_info_power_usb">USB</string>
+  <string name="battery_info_power_wireless">conexones inalámbriques</string>
+  <string name="battery_info_power_ac_usb">AC+USB</string>
+  <string name="battery_info_power_unknown">Desconocíu</string>
+  <string name="battery_info_health_unknown">Desconocíu</string>
+  <string name="battery_info_health_good">Bona</string>
+  <string name="battery_info_health_overheat">Sobrecalentamientu</string>
+  <string name="battery_info_health_dead">Escosada</string>
+  <string name="battery_info_health_over_voltage">Sobretensión</string>
+  <string name="battery_info_health_unspecified_failure">Fallu desconocíu</string>
+  <string name="battery_info_health_cold">Nivel baxu</string>
+  <string name="bluetooth">Axustes de Bluetooth</string>
+  <string name="bluetooth_is_discoverable">Visible pa preseos Bluetooth cercanos (<xliff:g id="DISCOVERABLE_TIME_PERIOD">%1$s</xliff:g>)</string>
+  <string name="bluetooth_is_discoverable_always">Visible pa preseos Bluetooth cercanos</string>
+  <string name="bluetooth_not_visible_to_other_devices">Anubríu pa otros preseos Bluetooth</string>
+  <string name="bluetooth_only_visible_to_paired_devices">Namái visible pa preseos sincronizaos</string>
+  <string name="bluetooth_visibility_timeout">Tiempu de visibilidá</string>
+  <string name="bluetooth_lock_voice_dialing">Bloquiar marcación por voz</string>
+  <string name="bluetooth_lock_voice_dialing_summary">Evitar l\'usu del marcador a traviés de Bluetooth cuando la pantalla tea bloquiada</string>
+  <string name="bluetooth_devices">Preseos Bluetooth</string>
+  <string name="bluetooth_device_name">Nome del preséu</string>
+  <string name="bluetooth_device_details">Axustes del preséu</string>
+  <string name="bluetooth_profile_details">Axustes de perfil</string>
+  <string name="bluetooth_name_not_set">Nun s\'afitó nengún nome; va usase\'l nome de cuenta.</string>
+  <string name="bluetooth_scan_for_devices">Guetar preseos</string>
+  <string name="bluetooth_rename_device" product="tablet">Camudar nome de la tablet</string>
+  <string name="bluetooth_rename_device" product="default">Camudar nome del teléfonu</string>
+  <string name="bluetooth_rename_button">Camudar nome</string>
+  <string name="bluetooth_disconnect_title">¿Desconeutar?</string>
+  <string name="bluetooth_disconnect_all_profiles">Va finar la conexón con&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;.</string>
+  <string name="bluetooth_disable_profile_title">¿Inhabilitar perfil?</string>
+  <string name="bluetooth_disable_profile_message">Va inhabilitase&lt;br&gt;&lt;b&gt;<xliff:g id="PROFILE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;br&gt;de&lt;br&gt;&lt;b&gt;<xliff:g id="DEVICE_NAME">%2$s</xliff:g>&lt;/b&gt;.</string>
+  <string name="bluetooth_connected">Coneutáu</string>
+  <string name="bluetooth_connected_no_headset">Coneutáu (ensin teléfonu)</string>
+  <string name="bluetooth_connected_no_a2dp">Coneutáu (ensin audiu multimedia)</string>
+  <string name="bluetooth_connected_no_map">Coneutáu (ensin accesu a mensaxes)</string>
+  <string name="bluetooth_connected_no_headset_no_a2dp">Coneutáu (ensin teléfonu nin multimedia)</string>
+  <string name="bluetooth_disconnected">Desconeutada</string>
+  <string name="bluetooth_disconnecting">Desconeutando…</string>
+  <string name="bluetooth_connecting">Afitando conexón…</string>
+  <string name="bluetooth_pairing">Enllazando…</string>
+  <string name="bluetooth_device">Preséu Bluetooth ensin nome</string>
+  <string name="progress_scanning">Guetando</string>
+  <string name="bluetooth_no_devices_found">Nun hai preseos Bluetooth cercanos.</string>
+  <string name="bluetooth_notif_ticker">Solicitú d\'enllaz de Bluetooth</string>
+  <string name="bluetooth_notif_title">Solicitú d\'enllaz</string>
+  <string name="bluetooth_notif_message">Toca pa enllazar con <xliff:g id="DEVICE_NAME">%1$s</xliff:g></string>
+  <string name="bluetooth_show_received_files">Amosar ficheros recibíos</string>
+  <string name="device_picker">Seleutor de preséu Bluetooth</string>
+  <string name="bluetooth_permission_request">"Solicitú de permisu de Bluetooth"</string>
+  <string name="bluetooth_ask_enablement">Una aplicación quier activar el Bluetooth.</string>
+  <string name="bluetooth_ask_discovery" product="tablet">Una aplicación quier facer visible la to tablet pa otros preseos Bluetooth mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
+  <string name="bluetooth_ask_discovery" product="default">Una aplicación quier facer visible\'l teléfonu pa otros preseos Bluetooth mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
+  <string name="bluetooth_ask_lasting_discovery" product="tablet">Una aplicación quier facer visible la tablet pa otros preseos Bluetooth. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
+  <string name="bluetooth_ask_lasting_discovery" product="default">Una aplicación quier facer visible\'l teléfonu pa otros preseos Bluetooth. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
+  <string name="bluetooth_ask_enablement_and_discovery" product="tablet">Una aplicación quier activar el Bluetooth y facer visible la tablet pa otros preseos mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
+  <string name="bluetooth_ask_enablement_and_discovery" product="default">Una aplicación quier activar el Bluetooth y facer visible\'l teléfonu pa otros preseos mientres <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos.</string>
+  <string name="bluetooth_ask_enablement_and_lasting_discovery" product="tablet">Una aplicación quier activar el Bluetooth y facer visible la tablet pa otros preseos. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
+  <string name="bluetooth_ask_enablement_and_lasting_discovery" product="default">Una aplicación quier activar el Bluetooth y facer visible\'l teléfonu pa otros preseos. Pues camudar esta configuración dempués nos axustes de Bluetooth.</string>
+  <string name="bluetooth_turning_on">"Activando Bluetooth…"</string>
+  <string name="bluetooth_turning_off">"Desactivando Bluetooth…"</string>
+  <string name="bluetooth_auto_connect">Conexón automática</string>
+  <string name="bluetooth_connection_permission_request">"Solicitú p'afitar conexón de Bluetooth"</string>
+  <string name="bluetooth_connection_notif_message">"Toca pa coneutate a \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
+  <string name="bluetooth_connection_dialog_text">"¿Quies coneutate a <xliff:g id="DEVICE_NAME">%1$s</xliff:g>?"</string>
+  <string name="bluetooth_phonebook_request">"Solicitú d'accesu a axenda teléfonica"</string>
+  <string name="bluetooth_pb_acceptance_dialog_text">%1$s quier acceder a los contautos y al historial de llamaes. ¿Quies permitir l\'accesu a %2$s?</string>
+  <string name="bluetooth_remember_choice">Nun volver a entrugar</string>
+  <string name="bluetooth_pb_remember_choice">Nun volver a entrugar</string>
+  <string name="bluetooth_map_request">"Solicitú d'accesu a mensaxes"</string>
+  <string name="bluetooth_map_acceptance_dialog_text">%1$s quier acceder a los mensaxes. ¿Quies permitir l\'accesu a %2$s?</string>
+  <string name="date_and_time">Axustes de data y hora</string>
+  <string name="choose_timezone">Seleicionar estaya horaria</string>
+  <string name="default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
+  <string name="normal_date_format">Rexonal (<xliff:g id="DATE">%s</xliff:g>)</string>
+  <string name="display_preview_label">Vista previa:</string>
+  <string name="display_font_size_label">Tamañu de fonte:</string>
+  <string name="intent_sender_data_label"><xliff:g id="data">Datos:</xliff:g></string>
+  <string name="intent_sender_sendbroadcast_text">Unviar <xliff:g id="BROADCAST">broadcast</xliff:g></string>
+  <string name="intent_sender_action_label"><xliff:g id="ACTION">Aición</xliff:g>:</string>
+  <string name="intent_sender_startactivity_text">Aniciar <xliff:g id="ACTIVITY">activity</xliff:g></string>
+  <string name="intent_sender_resource_label"><xliff:g id="RESOURCE">Resource</xliff:g>:</string>
+  <string name="intent_sender_account_label">Cuenta: </string>
+  <string name="proxy_settings_title">Proxy</string>
+  <string name="proxy_clear_text">Desaniciar</string>
+  <string name="proxy_port_label">Puertu proxy</string>
+  <string name="proxy_exclusionlist_label">Omitir proxy pa</string>
+  <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+  <string name="proxy_defaultView_text">Restaurar valores predeterminaos</string>
+  <string name="proxy_action_text">Ok</string>
+  <string name="proxy_hostname_label">Nome de host de proxy</string>
+  <string name="proxy_hostname_hint">proxy.example.com</string>
+  <string name="proxy_error">Atención</string>
+  <string name="proxy_error_dismiss">Aceutar</string>
+  <string name="proxy_error_invalid_host">El nome de host inxertáu nun ye válidu.</string>
+  <string name="proxy_error_invalid_exclusion_list">La llista d\'esclusión qu\'escribisti nun ye correcta. Escribi una llista separtada por comes de dominios escluyíos.</string>
+  <string name="proxy_error_empty_port">Tienes de completar el campu de puertu.</string>
+  <string name="proxy_error_empty_host_set_port">El campu de puertu tien de tar baleru si\'l campu de host tamién lo ta.</string>
+  <string name="proxy_error_invalid_port">El puertu qu\'introduxisti nun ye válidu.</string>
+  <string name="proxy_warning_limited_support">El restolador usa\'l proxy HTTP, pero nun puen usalu otres aplicaciones.</string>
+  <string name="proxy_url">"URL de configuración automática de proxy: "</string>
+  <string name="radio_info_signal_location_label">Llocalización:</string>
+  <string name="radio_info_neighboring_location_label">CID anexu:</string>
+  <string name="radio_info_cellinfo_label">Información móvil:</string>
+  <string name="radio_info_data_attempts_label">Intentos de datos:</string>
+  <string name="radio_info_gprs_service_label">Serviciu GPRS:</string>
+  <string name="radio_info_roaming_label">Itinerancia:</string>
+  <string name="radio_info_imei_label">IMEI:</string>
+  <string name="radio_info_call_redirect_label">Esvíu de llamada:</string>
+  <string name="radio_info_ppp_resets_label">Númberu de PPP restablecíu dende l\'aniciu:</string>
+  <string name="radio_info_gsm_disconnects_label">Desconexón de GSM:</string>
+  <string name="radio_info_current_network_label">Rede actual:</string>
+  <string name="radio_info_data_successes_label">Datos correutos:</string>
+  <string name="radio_info_ppp_received_label">PPP recibíu:</string>
+  <string name="radio_info_gsm_service_label">Serviciu GSM:</string>
+  <string name="radio_info_signal_strength_label">Intensidá de la señal:</string>
+  <string name="radio_info_call_status_label">Estáu de la llamada:</string>
+  <string name="radio_info_ppp_sent_label">PPP unviáu:</string>
+  <string name="radio_info_radio_resets_label">Restablecimientos de señal móvil:</string>
+  <string name="radio_info_message_waiting_label">Mensaxe n\'espera:</string>
+  <string name="radio_info_phone_number_label">Númberu de teléfonu:</string>
+  <string name="radio_info_band_mode_label">Seleicionar banda de señal móvil</string>
+  <string name="radio_info_network_type_label">Tipu de rede:</string>
+  <string name="radio_info_set_perferred_label">Afitar tipu de rede preferíu:</string>
+  <string name="radio_info_ping_ipaddr">Facer ping a DirIP:</string>
+  <string name="radio_info_ping_hostname">Facer ping a nome de host (www.google.com):</string>
+  <string name="radio_info_http_client_test">Prueba de veceru HTTP:</string>
+  <string name="ping_test_label">Executar prueba de ping</string>
+  <string name="radio_info_smsc_label">SMSC:</string>
+  <string name="radio_info_smsc_update_label">Anovar</string>
+  <string name="radio_info_smsc_refresh_label">Anovar</string>
+  <string name="radio_info_toggle_dns_check_label">alternar comprobación de DNS</string>
+  <string name="oem_radio_info_label">Axustes/información específica de OEM</string>
+  <string name="band_mode_title">Afitar banda GSM/UMTS</string>
+  <string name="band_mode_loading">Cargando llista de bandes…</string>
+  <string name="band_mode_set">Afitar</string>
+  <string name="band_mode_failed">Con fallu</string>
+  <string name="band_mode_succeeded">Correutu</string>
+  <string name="sdcard_changes_instructions">Los cambeos van aplicase cuando se vuelva a coneutar el cable USB.</string>
+  <string name="sdcard_settings_screen_mass_storage_text">Habilitar almacenamientu masivu USB</string>
+  <string name="sdcard_settings_total_bytes_label">Bytes totales:</string>
+  <string name="sdcard_settings_not_present_status" product="nosdcard">USB non activáu</string>
+  <string name="sdcard_settings_not_present_status" product="default">Falta la tarxeta SD.</string>
+  <string name="sdcard_settings_available_bytes_label">Bytes disponibles:</string>
+  <string name="sdcard_settings_mass_storage_status" product="nosdcard">USB como almacenamientu masivu</string>
+  <string name="sdcard_settings_mass_storage_status" product="default">La tarxeta SD ta usándose como preséu d\'almacenamientu masivu.</string>
+  <string name="sdcard_settings_unmounted_status" product="nosdcard">Ye seguro estrayer l\'almacenamientu USB.</string>
+  <string name="sdcard_settings_unmounted_status" product="default">Ye seguro estrayer la tarxeta SD.</string>
+  <string name="sdcard_settings_bad_removal_status" product="nosdcard">USB estrayíu n\'usu</string>
+  <string name="sdcard_settings_bad_removal_status" product="default">La tarxeta SD estráxose mentanto taba n\'usu.</string>
+  <string name="sdcard_settings_used_bytes_label">Bytes usaos:</string>
+  <string name="sdcard_settings_scanning_status" product="nosdcard">Guetando ficheros almac USB…</string>
+  <string name="sdcard_settings_scanning_status" product="default">Guetando medios en tarxeta SD…</string>
+  <string name="sdcard_settings_read_only_status" product="nosdcard">Almacenamientu USB activáu como namái llectura</string>
+  <string name="sdcard_settings_read_only_status" product="default">La tarxeta SD ta activada en mou de namái llectura.</string>
+  <string name="skip_label">Saltar</string>
+  <string name="next_label">Siguiente</string>
+  <string name="language_picker_title">Llingua</string>
+  <string name="activity_picker_label">Esbillar actividá</string>
+  <string name="debug_intent_sender_label">Debug intent sender</string>
+  <string name="device_info_label">Información del preséu</string>
+  <string name="battery_info_label">Información tocante a la batería</string>
+  <string name="display_label">Pantalla</string>
+  <string name="phone_info_label" product="tablet">Información de la tablet</string>
+  <string name="phone_info_label" product="default">Información del teléfonu</string>
+  <string name="sd_card_settings_label" product="nosdcard">Almacenamientu USB</string>
+  <string name="sd_card_settings_label" product="default">Tarxeta SD</string>
+  <string name="proxy_settings_label">Axustes de proxy</string>
+  <string name="cancel">Encaboxar</string>
+  <string name="settings_label">Axustes</string>
+  <string name="settings_label_launcher">Axustes</string>
+  <string name="settings_shortcut">Accesu a Axustes</string>
+  <string name="airplane_mode">Mou avión</string>
+  <string name="radio_controls_title">Más…</string>
+  <string name="wireless_networks_settings_title">Conexones inalámbriques y redes</string>
+  <string name="radio_controls_summary">Alministrar Wi‑Fi, Bluetooth, mou avión, redes móviles y redes VPN</string>
+  <string name="roaming">Itinerancia de datos</string>
+  <string name="roaming_enable">Afitar conexón con servicios de datos n\'itinerancia</string>
+  <string name="roaming_disable">Afitar conexón con servicios de datos n\'itinerancia</string>
+  <string name="roaming_reenable_message">Perdióse la coneutividá de datos porque dexesti desactivada la itinerancia de datos de la rede doméstica.</string>
+  <string name="roaming_turn_it_on_button">Activala</string>
+  <string name="roaming_warning">Al permitir la itinerancia de datos, ye dable que te facturen cargos adicionales elevaos.</string>
+  <string name="roaming_warning_multiuser" product="tablet">Al permitir la itinerancia de datos, los costes d\'itinerancia puen ser significativos.\n\nEsta configuración afecta a tolos usuarios d\'esta tablet.</string>
+  <string name="roaming_warning_multiuser" product="default">Al permitir la itinerancia de datos, los costes d\'itinerancia puen ser significativos.\n\nEsta configuración afecta a tolos usuarios d\'esti teléfonu.</string>
+  <string name="roaming_reenable_title">¿Permitir itinerancia de datos?</string>
+  <string name="networks">Escoyeta d\'operador</string>
+  <string name="sum_carrier_select">Esbillar un operador de rede</string>
+  <string name="date_and_time_settings_title">Data y hora</string>
+  <string name="date_and_time_settings_title_setup_wizard">Afitar hora y data</string>
+  <string name="date_and_time_settings_summary">Afitar hora, data, estaya horaria y formatos</string>
+  <string name="date_time_auto">Hora y data automátiques</string>
+  <string name="date_time_auto_summaryOn">Usar hora proporcionada pola rede</string>
+  <string name="date_time_auto_summaryOff">Usar hora proporcionada pola rede</string>
+  <string name="zone_auto">Estaya horaria automática</string>
+  <string name="zone_auto_summaryOn">Usar estaya horaria proporcionada pola rede</string>
+  <string name="zone_auto_summaryOff">Usar estaya horaria proporcionada pola rede</string>
+  <string name="date_time_24hour">Formatu de 24 hores</string>
+  <string name="date_time_set_time">Afitar hora</string>
+  <string name="date_time_set_timezone">Esbillar estaya horaria</string>
+  <string name="date_time_set_date">Afitar data</string>
+  <string name="date_time_date_format">Formatu de data</string>
+  <string name="zone_list_menu_sort_alphabetically">Ordenar alfabéticamente</string>
+  <string name="zone_list_menu_sort_by_timezone">Ordenar por estaya horaria</string>
+  <string name="date_picker_title">Data</string>
+  <string name="time_picker_title">Hora</string>
+  <string name="biometric_weak_improve_matching_title">Meyorar el reconocimientu facial</string>
+  <string name="biometric_weak_liveliness_title">Reconocimientu facial</string>
+  <string name="biometric_weak_liveliness_summary" msgid="7980026533493781616">Solicitar parpaguéu al desbloquiar</string>
+  <string name="lock_after_timeout">Bloquiar automáticamente</string>
+  <string name="lock_after_timeout_summary">Tres <xliff:g id="TIMEOUT_STRING">%1$s</xliff:g> dempués de suspender</string>
+  <string name="show_owner_info_on_lockscreen_label">Amosar datos del propietariu na pantalla de bloquéu</string>
+  <string name="owner_info_settings_title">Información del propietariu</string>
+  <string name="security_enable_widgets_title">Habilitar widgets</string>
+  <string name="security_enable_widgets_disabled_summary">Inhabilitáu pol alministrador</string>
+  <string name="owner_info_settings_edit_text_hint">Introduz el testu que va amosase na pantalla de bloquéu.</string>
+  <string name="show_user_info_on_lockscreen_label">Amosar información d\'usuariu na pantalla de bloquéu</string>
+  <string name="user_info_settings_title">Información del usuariu</string>
+  <string name="show_profile_info_on_lockscreen_label">Amosar información de perfil en pantalla bloquéu</string>
+  <string name="profile_info_settings_title">Información perfil</string>
+  <string name="location_settings_title">Llocalización</string>
+  <string name="security_settings_title">Seguridá</string>
+  <string name="security_settings_summary">Afitar Mio llocalización, bloquéu de pantalla, bloquéu de tarxeta SIM y bloquéu d\'almacenamientu de credenciales</string>
+  <string name="cdma_security_settings_summary">Afitar llocalización, bloquéu de pantalla y bloquéu d\'almacenamientu de credenciales</string>
+  <string name="security_passwords_title">Contraseñes</string>
+  <string name="crypt_keeper_settings_title">Cifráu</string>
+  <string name="crypt_keeper_encrypt_title" product="tablet">Cifrar tablet</string>
+  <string name="crypt_keeper_encrypt_title" product="default">Cifrar teléfonu</string>
+  <string name="crypt_keeper_encrypt_summary" product="tablet">Solicitar una contraseña o un PIN numbéricu pa descifrar la tablet cada vegada que se prenda</string>
+  <string name="crypt_keeper_encrypt_summary" product="default">Solicitar una contraseña o un PIN numbéricu pa descifrar el teléfonu cada vegada que se prenda</string>
+  <string name="crypt_keeper_encrypted_summary">Cifráu</string>
+  <string name="crypt_keeper_desc" product="tablet">Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes (y los sos datos), ficheros multimedia y otres tribes de ficheros. Cuando cifres la tablet, tienes d\'inxertar un PIN o una contraseña pa descifrala cada vegada que la prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos de la tablet.\n\nEl procesu de cifráu tarda alrodiu d\'una hora. Tienes d\'aniciar esti procesu con una batería cargada y caltener la tablet coneutada hasta que fine\'l procesu. Si s\'interrumpe\'l procesu de cifráu, perderás los datos total o parcialmente.</string>
+  <string name="crypt_keeper_desc" product="default">Pues cifrar les tos cuentes, axustes, les aplicaciones descargaes (y los sos datos), ficheros multimedia y otres tribes de ficheros. Cuando cifres el teléfonu, tienes d\'inxertar un PIN o una contraseña pa descifralu cada vegada que lu prendas. Namái vas poder desfacer la operación restableciendo los datos de fábrica y desaniciando tolos datos del teléfonu.\n\nEl procesu de cifráu tarda alrodiu d\'una hora. Tienes d\'aniciar esti procesu con una batería cargada y caltener el teléfonu coneutáu hasta que fine\'l procesu. Si s\'interrumpe\'l procesu de cifráu, perderás los datos total o parcialmente.</string>
+  <string name="crypt_keeper_button_text" product="tablet">Cifrar tablet</string>
+  <string name="crypt_keeper_button_text" product="default">Cifrar teléfonu</string>
+  <string name="crypt_keeper_low_charge_text">Carga la batería y vuelvi a intentalo.</string>
+  <string name="crypt_keeper_unplugged_text">Coneuta\'l cargador y vuelvi a intentalo.</string>
+  <string name="crypt_keeper_dialog_need_password_title">Falta la contraseña o\'l PIN de la pantalla de bloquéu</string>
+  <string name="crypt_keeper_dialog_need_password_message">Tienes d\'afitar una contraseña o un PIN de la pantalla de bloquéu pa poder aniciar el procesu de cifráu.</string>
+  <string name="crypt_keeper_confirm_title">¿Cifrar preséu?</string>
+  <string name="crypt_keeper_final_desc" product="tablet">La operación de cifráu nun pue desfacese, y si la encaboxes vas perder datos. El cifráu tarda alrodiu d\'una hora y la tablet reaníciase delles vegaes mientres esti procesu.</string>
+  <string name="crypt_keeper_final_desc" product="default">La operación de cifráu nun pue desfacese, y si la encaboxes vas perder datos. El cifráu tarda alrodiu d\'una hora y el teléfonu reaníciase delles vegaes mientres esti procesu.</string>
+  <string name="crypt_keeper_setup_title">Cifrando</string>
+  <string name="crypt_keeper_setup_description" product="tablet">Espera mentanto se cifra la tablet. <xliff:g id="PERCENT">^1</xliff:g>% completáu</string>
+  <string name="crypt_keeper_setup_description" product="default">Espera mentanto se cifra\'l teléfonu. <xliff:g id="PERCENT">^1</xliff:g>% completáu</string>
+  <string name="crypt_keeper_cooldown">Espera <xliff:g id="DELAY">^1</xliff:g> segundos y vuelvi a intentalo.</string>
+  <string name="crypt_keeper_enter_password">Escribi la contraseña</string>
+  <string name="crypt_keeper_failed_title">Fallu nel cifráu</string>
+  <string name="crypt_keeper_failed_summary" product="tablet">El procesu de cifráu paróse y nun pue completase. Poro, nun vas poder acceder a los datos de la tablet. \n\nTienes de restablecer los datos de fábrica pa volver a usar la tablet. Cuando configures la tablet dempués d\'esti procesu, podrás restaurar los datos de los que tengas copia de seguridá na to cuenta de Google.</string>
+  <string name="crypt_keeper_failed_summary" product="default">El procesu de cifráu paróse y nun pue completase. Poro, nun vas poder acceder a los datos del teléfonu. \n\nTienes de restablecer los datos de fábrica pa volver a usar el teléfonu. Cuando configures el teléfonu dempués d\'esti procesu, podrás restaurar los datos de los que tengas copia de seguranza na to cuenta de Google.</string>
+  <string name="crypt_keeper_switch_input_method">Camudar métodu d\'entrada</string>
+  <string name="lock_settings_picker_title">Escoyer bloquéu de pantalla</string>
+  <string name="backup_lock_settings_picker_title">Bloquéu alternativu</string>
+  <string name="unlock_set_unlock_launch_picker_title">Bloquéu de pantalla</string>
+  <string name="unlock_set_unlock_launch_picker_change_title">Camudar pantalla de bloquéu</string>
+  <string name="unlock_set_unlock_launch_picker_change_summary">Cambia o inhabilita seguridá contraseña, PIN o patrón</string>
+  <string name="unlock_set_unlock_launch_picker_enable_summary">Esbilla un métodu pa bloquiar la pantalla.</string>
+  <string name="unlock_backup_info_summary">Si\'l desbloquéu facial nun te reconoz, ¿cómo quies desbloquiar la pantalla?</string>
+  <string name="unlock_set_unlock_off_title">Ensin seguridá</string>
+  <string name="unlock_set_unlock_none_title">Eslizar</string>
+  <string name="unlock_set_unlock_none_summary">Ensin seguridá</string>
+  <string name="unlock_set_unlock_biometric_weak_title">Desbloquéu facial</string>
+  <string name="unlock_set_unlock_biometric_weak_summary">Seguridá baxa (esperimental)</string>
+  <string name="unlock_set_unlock_pattern_title">Patrón</string>
+  <string name="unlock_set_unlock_pattern_summary">Seguridá media</string>
+  <string name="unlock_set_unlock_pin_title">PIN</string>
+  <string name="unlock_set_unlock_pin_summary">Seguridá media-alta</string>
+  <string name="unlock_set_unlock_password_title">Contraseña</string>
+  <string name="unlock_set_unlock_password_summary">Seguridá alta</string>
+  <string name="unlock_set_unlock_disabled_summary">Desactiváu pol alministrador, política de cifráu o almacenamientu de credenciales</string>
+  <string name="unlock_set_unlock_mode_off">Nengún</string>
+  <string name="unlock_set_unlock_mode_none">Eslizar</string>
+  <string name="unlock_set_unlock_mode_biometric_weak">Desbloquéu facial</string>
+  <string name="unlock_set_unlock_mode_pattern">Patrón</string>
+  <string name="unlock_set_unlock_mode_pin">PIN</string>
+  <string name="unlock_set_unlock_mode_password">Contraseña</string>
+  <string name="unlock_disable_lock_title">Desactivar bloquéu pantalla</string>
+  <string name="unlock_disable_lock_pattern_summary">Desaniciar patrón de desbloquéu</string>
+  <string name="unlock_disable_lock_pin_summary">Desaniciar PIN de desbloquéu</string>
+  <string name="unlock_disable_lock_password_summary">Desaniciar contraseña de desbloquéu</string>
+  <string name="unlock_change_lock_pattern_title">Camudar patrón desbloquéu</string>
+  <string name="unlock_change_lock_pin_title">Camudar PIN de desbloquéu</string>
+  <string name="unlock_change_lock_password_title">Camudar contraseña de desbloquéu</string>
+  <string name="lockpassword_password_too_short">La contraseña tien de tener a lo menos %d caráuteres.</string>
+  <string name="lockpassword_pin_too_short">El PIN tien de tener como mínimu %d díxitos.</string>
+  <string name="lockpassword_press_continue">Tocar Continuar al terminar</string>
+  <string name="lockpassword_continue_label">Continuar</string>
+  <string name="lockpassword_password_too_long">La contraseña tien de tener menos de <xliff:g id="NUMBER">%d</xliff:g> caráuteres.</string>
+  <string name="lockpassword_pin_too_long">El PIN tien de tener menos de <xliff:g id="NUMBER">%d</xliff:g> díxitos.</string>
+  <string name="lockpassword_pin_contains_non_digits">El PIN namái tien de tener díxitos comprendíos ente\' 0 y el 9.</string>
+  <string name="lockpassword_pin_recently_used">L\'alministrador de preseos nun permite usar un PIN reciente.</string>
+  <string name="lockpassword_illegal_character">La contraseña contién un caráuter non permitíu.</string>
+  <string name="lockpassword_password_requires_alpha">La contraseña tien de tener polo menos una lletra.</string>
+  <string name="lockpassword_password_requires_digit">La contraseña tien de tener polo menos un díxitu.</string>
+  <string name="lockpassword_password_requires_symbol">La contraseña tien de tener polo menos un símbolu.</string>
+>>>>>>> 9a69d62... Automatic translation import
   <plurals name="lockpassword_password_requires_letters">
     <item quantity="one" msgid="3063853802158131458">La contraseña tien de tener polo menos una lletra.</item>
     <item quantity="other" msgid="8186027808415585970">La contraseña tien de tener polo menos %d lletres.</item>
@@ -920,12 +920,12 @@
   <string name="master_clear_title">Reafitar datos de fábrica</string>
   <string name="master_clear_summary" product="tablet">Desanicia tolos datos de la tablet.</string>
   <string name="master_clear_summary" product="default">Desaniciar tolos datos del teléfonu</string>
-  <string name="master_clear_desc" product="tablet">"Van desaniciase tolos datos del <b>almacenamientu internu</b> de la tablet, como:\n\n<li>La to cuenta de Google</li>\n<li>Los axustes y los datos d\'aplicaciones y del sistema </li>\n<li>Les aplicaciones descargaes</li>"</string>
-  <string name="master_clear_desc" product="default">"Van desaniciase tolos datos del <b>almacenamientu internu</b> del teléfonu, como:\n\n<li>La to cuenta de Google</li>\n<li>Los axustes y los datos d\'aplicaciones y del sistema </li>\n<li>Les aplicaciones descargaes</li>"</string>
+  <string name="master_clear_desc" product="tablet">"Esto va desaniciar tolos datos del <b>almacenamientu internu</b> de la tableta, incluyendo:\n\n<li>La to cuenta Google</li>\n<li>Axustes y datos d\'aplicaciones y sistema</li>\n<li>Aplicaciones descargaes</li>"</string>
+  <string name="master_clear_desc" product="default">"Esto va desaniciar tolos datos del <b>almacenamientu internu</b> del teléfonu, incluyendo:\n\n<li>La to cuenta Google</li>\n<li>Axustes y datos d\'aplicaciones y sistema</li>\n<li>Aplicaciones descargaes</li>"</string>
   <string name="master_clear_accounts" product="default">"\n\nAccedisti a les cuentes que s'indiquen darréu:\n"</string>
   <string name="master_clear_desc_also_erases_external">"<li>Música</li>\n<li>Semeyes</li>\n<li>Otros datos d\'usuariu</li>"</string>
-  <string name="master_clear_desc_erase_external_storage" product="nosdcard">"\n\nPa desaniciar la música, les imáxenes y otros datos d'usuariu, tienes de desaniciar el \"<b>almacenamientu USB"</b>."</string>
-  <string name="master_clear_desc_erase_external_storage" product="default">"\n\nPa desaniciar la música, les imáxenes y otros datos d'usuariu, tienes de desaniciar la \"<b>tarxeta SD"</b>."</string>
+  <string name="master_clear_desc_erase_external_storage" product="nosdcard">"\n\nPa llimpiar la música, les semeyes, y otros datos d\'usuariu, necesítase desaniciar l\'<b>almacenamientu USB </b>."</string>
+  <string name="master_clear_desc_erase_external_storage" product="default">"\n\nPa llimpiar la música, les semeyes, y otros datos d\'usuariu, necesítase desaniciar la <b>tarxeta SD </b>."</string>
   <string name="erase_external_storage" product="nosdcard">Desaniciar almacenamientu USB</string>
   <string name="erase_external_storage" product="default">Desaniciar tarxeta SD</string>
   <string name="erase_external_storage_description" product="nosdcard">Desanicia tolos datos del almacenamientu USB internu, como la música o les semeyes.</string>
@@ -1311,7 +1311,7 @@
   <string name="development_settings_summary">Afitar opciones de desendolcu d\'aplicaciones</string>
   <string name="development_settings_not_available">Les opciones de desendolcador nun tán disponibles pa esti usuariu</string>
   <string name="enable_adb">Depuración USB</string>
-  <string name="enable_adb_summary">Activar el mou de depuración cuando\'l preséu tea coneutáu por USB</string>
+  <string name="enable_adb_summary">Mou depuración cuando l\'USB tea coneutáu</string>
   <string name="clear_adb_keys">Revocar autorizaciones depur. USB</string>
   <string name="bugreport_in_power">Informe d\'error menú encendíu</string>
   <string name="bugreport_in_power_summary">Incluyir opción nel menú d\'encendíu pa xenerar un informe d\'error</string>

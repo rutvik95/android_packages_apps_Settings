@@ -125,6 +125,8 @@
     <string name="profile_trigger_connect">On connect</string>
     <string name="profile_trigger_disconnect">On disconnect</string>
     <string name="profile_trigger_notrigger">No trigger</string>
+    <string name="profile_trigger_a2dp_connect">On A2DP connect</string>
+    <string name="profile_trigger_a2dp_disconnect">On A2DP disconnect</string>
 
     <!-- Profile Settings sound modes labels -->
     <string name="sound_mode">Notification mode</string>
@@ -272,6 +274,10 @@
     <string name="battery_light_low_color_title">Battery low</string>
     <string name="battery_light_medium_color_title">Charging</string>
     <string name="battery_light_full_color_title">Fully charged</string>
+
+    <!-- Protected apps lockpattern reset button -->
+    <string name="lockpattern_reset_button">Reset pattern</string>
+    <string name="lockpattern_settings_reset_summary">Enter primary email account and associated password to reset pattern lock</string>
 
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_pattern_size_3" translatable="false">3x3</string>
@@ -1215,6 +1221,12 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="saving_protected_components">Saving component state\u2026</string>
     <string name="system_settings_title">System settings</string>
     
+    <string name="pa_login_username_hint">Username (email)</string>
+    <string name="pa_login_password_hint">Password</string>
+    <string name="pa_login_submit_button">Sign in</string>
+    <string name="pa_login_checking_password">Checking account\u2026</string>
+    <string name="pa_login_incorrect_login">Login was incorrect</string>
+
     <!-- Stay Awake while plugged in -->
     <string name="keep_screen_on_summary_cm">Screen will never sleep while plugged in</string>
 
@@ -1240,4 +1252,9 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="low_battery_warning_policy_popup">Pop-up dialog only</string>
     <string name="low_battery_warning_policy_notif">Notification only</string>
     <string name="low_battery_warning_policy_sound">Sound only</string>
+
+    <string name="spam_added_title">Added %1$s</string>
+    <string name="spam_last_blocked_title">Last blocked %1$s</string>
+    <string name="block_notifications_title">Filter notifications</string>
+    <string name="no_filters_title">No filters set</string>
 </resources>
