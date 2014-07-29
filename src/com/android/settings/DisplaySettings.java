@@ -171,12 +171,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mColorEnhancement = null;
         }
 
-        mTapToWake = (CheckBoxPreference) findPreference(KEY_TAP_TO_WAKE);
-        if (!isTapToWakeSupported()) {
-            advancedPrefs.removePreference(mTapToWake);
-            mTapToWake = null;
-        }
-
         Utils.updatePreferenceToSpecificActivityFromMetaDataOrRemove(getActivity(),
                 advancedPrefs, KEY_ADVANCED_DISPLAY_SETTINGS);
 
