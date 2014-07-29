@@ -391,7 +391,6 @@
   <string name="lockpassword_password_requires_alpha">La contraseña tien de tener polo menos una lletra.</string>
   <string name="lockpassword_password_requires_digit">La contraseña tien de tener polo menos un díxitu.</string>
   <string name="lockpassword_password_requires_symbol">La contraseña tien de tener polo menos un símbolu.</string>
->>>>>>> 9a69d62... Automatic translation import
   <plurals name="lockpassword_password_requires_letters">
     <item quantity="one" msgid="3063853802158131458">La contraseña tien de tener polo menos una lletra.</item>
     <item quantity="other" msgid="8186027808415585970">La contraseña tien de tener polo menos %d lletres.</item>
