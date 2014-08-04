@@ -61,27 +61,6 @@ public class NotificationDrawer extends SettingsPreferenceFragment implements
         mStatusBarCustomHeader.setOnPreferenceChangeListener(this);
     }
 
-<<<<<<< HEAD
-=======
-    @Override
-    public void onResume() {
-        super.onResume();
-        boolean headsUpEnabled = Settings.System.getIntForUser(
-                getActivity().getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATION, 0, UserHandle.USER_CURRENT) == 1;
-        mSwitchPreference.setChecked(headsUpEnabled);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        boolean headsUpEnabled = Settings.System.getIntForUser(
-                getActivity().getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATION, 0, UserHandle.USER_CURRENT) == 1;
-        mSwitchPreference.setChecked(headsUpEnabled);
-    }
-
->>>>>>> parent of 067c340... Settings: Add HeadsUp setting.
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         if (preference == mCollapseOnDismiss) {
             int value = Integer.valueOf((String) objValue);
