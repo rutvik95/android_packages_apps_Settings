@@ -68,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginTop="4dip"
-                android:text="@string/heads_up_switch_label" />
+                android:text="@string/heads_up_switch_label"
+                android:defaultValue="true" />
 
             <!-- Enable Privacy Guard for this package -->
             <CheckBox android:id="@+id/privacy_guard_switch"
