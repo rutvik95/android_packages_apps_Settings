@@ -573,8 +573,6 @@
     <string name="floating_blacklist_label">Blacklist from Floating Mode</string>
     
     <!-- Hover settings -->
-    <string name="hover_enabled_title">HOVER</string>
-    <string name="hover_enabled_summary">Enable PA\'s HOVER Notification System</string>
     <string name="hover_settings_title">Hover</string>
     <string name="hover_require_fullscreen_mode_title">Require Fullscreen-Mode</string>
     <string name="hover_require_fullscreen_mode_summary">Only show up when StatusBar is hidden</string>
@@ -646,12 +644,7 @@
     <!-- On-The-Go -->
     <string name="power_menu_onthego_title">On-The-Go Mode</string>
     <string name="title_tile_onthego">On-The-Go</string>
-    
-    <!-- Heads Up -->
-    <string name="heads_up_timeout">Heads up timeout</string>
-    <string name="heads_up_fullscreen_timeout">Heads up timeout on fullscreen</string>
-    <string name="heads_up_floating_window">Launch in floating window</string>
-    
+
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Minimum vibration duration</string>
     <!-- Vibration multiplier -->
@@ -666,5 +659,4 @@
     <string name="notification_custom_carrier_label_title">Custom carrier label</string>
     <string name="notification_custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
     <string name="notification_custom_carrier_label_notset">Custom label currently not set</string> 
-  
 </resources>
