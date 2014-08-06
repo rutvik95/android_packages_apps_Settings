@@ -36,7 +36,7 @@
         android:title="@string/pref_battery_saver_mode_change_delay_title"
         android:summary="@string/pref_battery_saver_mode_change_delay_summary"
         android:max="60"
-        settings:minimum="0"
+        settings:minimun="0"
         settings:interval="1"
         settings:unitsLeft=""
         settings:unitsRight="sec"
@@ -159,8 +159,8 @@
              android:dependency="pref_battery_saver_enable"
              android:title="@string/pref_battery_saver_network_title"
              android:summary="@string/pref_battery_saver_network_summary"
-             android:entries="@array/ad_redisplay_entries"
-             android:entryValues="@array/ad_redisplay_values"
+             android:entries="@array/mode_network_entries"
+             android:entryValues="@array/mode_network_values"
              android:persistent="false" />
 
     </PreferenceCategory>
