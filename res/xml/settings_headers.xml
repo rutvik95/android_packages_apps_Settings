@@ -140,14 +140,6 @@
         android:fragment="com.android.settings.axxion.HeadsUpSettings"
         android:title="@string/heads_up_title" />
         
-    <!-- Hover -->
-    <header
-        android:id="@+id/hover_settings"
-        android:icon="@drawable/ic_settings_hover"
-        android:fragment="com.android.settings.axxion.HoverSettings"
-        android:title="@string/hover_settings_title" />
-
-
     <!-- NAVIGATION -->
     <header android:title="@string/header_category_navigation" />
     
@@ -245,6 +237,14 @@
         android:id="@+id/manufacturer_settings">
         <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
     </header>
+
+    <!-- Other device controls -->
+    <header
+        android:id="@+id/more_device_settings"
+        android:title="@string/more_device_controls_title"
+        android:breadCrumbTitle="@string/more_device_settings_title"
+        android:fragment="com.android.settings.cyanogenmod.MoreDeviceSettings"
+        android:icon="@drawable/empty_icon" />
 
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
