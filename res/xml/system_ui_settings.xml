@@ -55,5 +55,5 @@
         android:fragment="com.android.settings.axxion.AnimationSettings"
         android:title="@string/animation_settings_title" />     
     </PreferenceCategory>
-    
+
 </PreferenceScreen>
