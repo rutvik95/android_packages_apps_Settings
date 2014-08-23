@@ -50,10 +50,9 @@ public class PowerMenu extends SettingsPreferenceFragment {
 
         findPreference(Settings.System.POWER_MENU_ONTHEGO_ENABLED).setEnabled(
                 NamelessUtils.hasCamera(getActivity())
+        );      
         
         findPreference(Settings.System.POWER_MENU_NAV_BAR_ENABLED).setEnabled(true);
         
-        );
-
     }
 }

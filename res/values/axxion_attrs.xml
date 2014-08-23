@@ -24,10 +24,6 @@
         <attr name="unitsRight" format="string|reference" />
         <attr name="interval" format="integer" />
     </declare-styleable>
-
-	<declare-styleable name="SeekBarPreferenceCham">
-        <attr name="interval" format="integer" />
-    </declare-styleable>
     
     <declare-styleable name="DragSortListView">
         <attr name="collapsedHeight" format="dimension" />
