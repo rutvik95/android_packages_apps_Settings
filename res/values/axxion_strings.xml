@@ -342,10 +342,6 @@
     <string name="noti_reminder_interval_3dot5s">3.5 second</string>
     <string name="noti_reminder_interval_4s">4 seconds</string>
     
-    <!-- Custom notification panel header -->
-    <string name="custom_statusbar_header_title">Contextual notification panel header</string>
-    <string name="custom_statusbar_header_summary">Sets the background of the notification panel header to an image based on the current date and time</string>
-    
     <!-- Allow all widgets in keyguard -->
     <string name="lockscreen_allow_all_title">Allow all widgets</string>
     <string name="lockscreen_allow_all_summary">Allow legacy widgets that don\'t natively support lock screen placement</string>
@@ -797,5 +793,5 @@
     
     <!-- Power menu nav bar -->
     <string name="power_menu_navbar_title">Navigation bar</string>
-    
+
 </resources>
