@@ -231,6 +231,10 @@
     <string name="adaptive_backlight_title">Adaptive backlight</string>
     <string name="adaptive_backlight_summary">Dynamically adjust the brightness of the display\'s backlight to maximize battery life while maintaining usability</string>
 
+    <!-- Sunlight readability enhancement screen -->
+    <string name="sunlight_enhancement_title">Sunlight enhancement</string>
+    <string name="sunlight_enhancement_summary">Enhance display brightness and readability under bright sunlight</string>
+
     <!-- Color enhancement settings screen -->
     <string name="color_enhancement_title">Color enhancement</string>
     <string name="color_enhancement_summary">Dynamically enhance the color of the display</string>
@@ -459,7 +463,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">Advanced reboot</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery or bootloader</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 
     <string name="app_security_title">App security</string>
 
@@ -870,7 +874,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="hardware_keys_action_search">Search assistant</string>
     <string name="hardware_keys_action_voice_search">Voice search</string>
     <string name="hardware_keys_action_in_app_search">In-app search</string>
-    <string name="hardware_keys_action_launch_camera">Launch Camera</string>
+    <string name="hardware_keys_action_launch_camera">Launch camera</string>
+    <string name="hardware_keys_action_last_app">Last app</string>
+    <string name="power_end_call_title">End call</string>
+    <string name="power_end_call_summary">Pressing the power button will end the current call</string>
     <string name="button_wake_title">Wake up</string>
     <string name="home_wake_summary">Pressing the home button will wake your device</string>
     <string name="camera_wake_summary">Pressing the camera button will wake your device</string>
@@ -1005,6 +1012,10 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
 
     <!-- App ops -->
     <string name="app_ops_summaries_coarse_location">coarse location</string>
