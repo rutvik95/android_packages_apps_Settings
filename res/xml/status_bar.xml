@@ -65,11 +65,4 @@
         android:title="@string/show_lte_or_fourgee_title"
         android:summary="@string/show_lte_or_fourgee_summary"
         android:defaultValue="false" />
-        
-    <!-- Network usage stats -->
-    <PreferenceScreen
-        android:key="network_usage_stats"
-        android:fragment="com.android.settings.axxion.NetworkUsageStats"
-        android:title="@string/status_bar_network_cat" />
-
 </PreferenceScreen>
